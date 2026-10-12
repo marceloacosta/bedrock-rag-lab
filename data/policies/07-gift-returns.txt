@@ -1,0 +1,7 @@
+Returning a gift
+
+A recipient with a gift receipt can return eligible unused gear within 45 calendar days after delivery. The recipient receives store credit equal to the item's paid price. The recipient does not receive a refund to their own bank card. If the purchaser requests the return through their original order, the normal purchaser-refund rules apply instead.
+
+A gift receipt hides the price on the paper presented to the recipient, but the order system still records the actual amount paid. Discounts are included in that amount. For a product bought as part of a discounted bundle, use the bundle-allocation policy to calculate the paid amount for that product. Do not substitute the current shelf price, the pre-discount price, or the price of a replacement item.
+
+Gift returns still require an approved request and must meet the condition requirements. The gift window does not make a used jacket returnable. The return-label fee follows the ordinary return-label policy. A recipient may use their own carrier if they do not want to buy the store label. This article does not describe the expiration date or transferability of store credit.

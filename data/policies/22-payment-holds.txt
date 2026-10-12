@@ -1,0 +1,7 @@
+Payment authorization holds
+
+When an order is placed, the card provider may show a pending authorization. The store captures payment when the order is dispatched. A pending entry and a captured payment are different states; the pending line alone does not prove a completed charge. If an order is cancelled before capture, the store releases the authorization rather than issuing a refund for a captured payment.
+
+The card provider typically removes a released authorization within three to seven business days. The exact display time depends on that provider. Support cannot turn this policy range into a promise that a particular bank will remove the hold tomorrow. If a customer reports both a pending entry and a completed entry, check the payment record before calling it a duplicate charge.
+
+The order-change policy controls whether an order can still be cancelled. This article does not extend the 30-minute request window or reverse warehouse processing. It also does not contain actual transaction records, card details, or authorization identifiers. Such records belong in the payment system and must be checked through the appropriate account workflow.

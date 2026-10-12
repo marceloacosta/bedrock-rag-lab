@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="t d">
+<title id="t">One search or an agent: what the experiment compares</title>
+<desc id="d">Policy documents in S3 feed Bedrock Knowledge Bases, using Titan embeddings and S3 Vectors. GLM 5 generates answers. The main comparison is one search with nine passages versus an agent starting with three passages and allowed two more searches. Additional checks use three passages, a second look at the same evidence, or all documents.</desc>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#6c858d" stroke-width="1.5"/></marker></defs>
+<rect width="1200" height="680" rx="18" fill="#f3f6f2"/>
+<g font-family="Arial,sans-serif" fill="#163246">
+<text x="42" y="45" font-size="14" letter-spacing="2" fill="#087e77">THE EXPERIMENT</text>
+<text x="42" y="87" font-size="32" font-weight="700">One search with more text, or an agent that searches again?</text>
+<rect x="42" y="116" width="1116" height="116" rx="12" fill="#fff" stroke="#c9d8d7"/>
+<text x="64" y="142" font-size="13" font-weight="700" fill="#087e77">ON AWS</text>
+<text x="64" y="175" font-size="21" font-weight="700">24 policy articles</text><text x="64" y="203" font-size="16">S3 bucket</text>
+<path d="M266 176H326" stroke="#6c858d" stroke-width="2" marker-end="url(#a)"/>
+<text x="348" y="175" font-size="21" font-weight="700">Bedrock Knowledge Bases</text><text x="348" y="203" font-size="16">Titan V2 embeddings · S3 Vectors</text>
+<path d="M712 176H774" stroke="#6c858d" stroke-width="2" marker-end="url(#a)"/>
+<text x="803" y="175" font-size="21" font-weight="700">GLM 5 answers</text><text x="803" y="203" font-size="16">Same model and answer instructions</text>
+<text x="44" y="276" font-size="14" font-weight="700" fill="#087e77">THE MAIN COMPARISON</text>
+<rect x="42" y="295" width="546" height="174" rx="12" fill="#d9eeea" stroke="#89b8ac"/>
+<text x="66" y="335" font-size="24" font-weight="700">One search</text>
+<text x="66" y="371" font-size="20">Retrieve nine passages → answer</text>
+<text x="66" y="437" font-size="17">More policy text in the first request.</text>
+<rect x="610" y="295" width="548" height="174" rx="12" fill="#fff" stroke="#c9d8d7"/>
+<text x="634" y="335" font-size="24" font-weight="700">Search agent</text>
+<text x="634" y="371" font-size="20">Start with three passages.</text>
+<text x="634" y="401" font-size="20">Allow up to two more searches → answer</text>
+<text x="634" y="437" font-size="17">The model chooses follow-up queries.</text>
+<text x="44" y="513" font-size="14" font-weight="700" fill="#087e77">THREE ADDITIONAL CHECKS</text>
+<rect x="42" y="532" width="352" height="91" rx="10" fill="#e4eceb"/>
+<text x="62" y="567" font-size="20" font-weight="700">Three passages</text><text x="62" y="595" font-size="16">Search once → answer</text>
+<rect x="410" y="532" width="365" height="91" rx="10" fill="#e4eceb"/>
+<text x="430" y="567" font-size="20" font-weight="700">Check the first answer</text><text x="430" y="595" font-size="16">Same three passages → review the draft</text>
+<rect x="791" y="532" width="367" height="91" rx="10" fill="#e4eceb"/>
+<text x="811" y="567" font-size="20" font-weight="700">Every document</text><text x="811" y="595" font-size="16">All 24 articles → answer</text>
+<text x="44" y="657" font-size="15" fill="#536d78">Each version answers the same 24 customer questions.</text>
+</g></svg>

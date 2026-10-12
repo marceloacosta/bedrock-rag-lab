@@ -1,0 +1,7 @@
+When refunds arrive
+
+The returns team normally inspects an ordinary parcel within five business days after warehouse receipt. Once the return is approved, the store submits the refund within two business days. A bank-card provider may then take another three to five business days to show the credit. These stages happen in sequence. A carrier delivery notification is not the same event as a completed inspection.
+
+For planning, the longest published path is five business days for inspection, two for submission, and five for the card provider: up to 12 business days after warehouse receipt. That is a policy estimate, not a live payment-status lookup. Weekends and published holidays do not count as business days. A missing component or a dispute over condition can require further review.
+
+Gift recipients receiving store credit are sent that credit after approval. The three-to-five-day bank-card processing period does not apply to issuing store credit. This page does not identify whether a particular return has been received, approved, or refunded. For that, support needs the live return record. A screenshot of the original purchase receipt does not show the refund's current status.

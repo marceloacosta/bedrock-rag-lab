@@ -1,0 +1,75 @@
+name: Deploy website
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Verify recorded results and repository contents
+        run: |
+          python3 tools/verify_results.py
+          python3 tools/check_privacy.py
+      - name: Read website content
+        if: github.repository == 'marceloacosta/bedrock-rag-lab'
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          repository: marceloacosta/decodingai-delivery
+          ssh-key: ${{ secrets.WEBSITE_SOURCE_KEY }}
+          persist-credentials: false
+          path: site-source
+      - name: Assemble site
+        run: |
+          if [ -d site-source ]; then
+            python3 tools/build_site.py --article-dir site-source
+          else
+            python3 tools/build_site.py
+          fi
+      - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
+        with:
+          path: dist
+          retention-days: 1
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+      actions: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+      - name: Remove temporary upload
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
+        with:
+          script: |
+            const result = await github.rest.actions.listWorkflowRunArtifacts({
+              ...context.repo, run_id: context.runId
+            });
+            for (const artifact of result.data.artifacts) {
+              if (artifact.name === 'github-pages') {
+                await github.rest.actions.deleteArtifact({
+                  ...context.repo, artifact_id: artifact.id
+                });
+              }
+            }

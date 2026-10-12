@@ -1,0 +1,7 @@
+Collecting an online order in a store
+
+Store pickup has no delivery fee when the chosen store has the product available. Wait for the ready-for-collection message before travelling. An order confirmation is not a ready message. The store holds a ready order for five calendar days from the ready message. Contact the store if collection within that period is not possible; the published policy does not guarantee an extension.
+
+Bring the collection reference and identification matching the collecting person registered on the order. A purchaser may nominate another adult in the order portal before collection. A forwarded email alone does not add that person to the collection record. Inspect large items at the store and ask staff for help with loading when needed.
+
+Pickup eligibility and stock are specific to each store. The online product catalog does not establish which store has an item today. The published pickup process cannot answer a live stock question or reserve a product on its own. Product return and warranty windows start from the recorded collection date for a pickup order. Other eligibility conditions, including final-sale markings and product-specific trials, still apply.

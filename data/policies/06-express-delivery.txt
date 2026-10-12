@@ -1,0 +1,7 @@
+Express order processing
+
+Express delivery for eligible ordinary parcels costs USD 18. It has a two-business-day transit target after dispatch. Orders accepted before 13:00 Eastern Time on a business day are dispatched that day. Orders accepted at or after 13:00, or on a weekend, are dispatched on the next business day. Business days for this policy are Monday through Friday excluding published holidays.
+
+The transit clock starts after dispatch, not when the customer adds an item to the basket. For an eligible order placed on a Monday at 14:00 during a week with no holidays, dispatch is Tuesday and the two-business-day transit target is Thursday. Payment review or an address problem can prevent dispatch until the issue is resolved. Do not infer that a particular order cleared those checks from this policy alone.
+
+Some product categories cannot use express delivery. Check the lithium-delivery and oversize-delivery articles before promising this service. A customer cannot pay a surcharge to remove a product restriction. The membership benefit covers qualifying standard delivery only. It does not discount the USD 18 express price or change the cutoff time.

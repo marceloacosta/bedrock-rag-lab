@@ -1,0 +1,7 @@
+Exchanging a size or color
+
+For a domestic order, an eligible unused product can be exchanged for a different size or color of the same model. The exchange keeps the original paid item price even if the current listing price changed. The replacement must be available when the request is approved. Exchanges into a different model are handled as a return followed by a new purchase at the new model's price.
+
+The warehouse holds an approved replacement for seven calendar days. The customer must hand the returning parcel to the carrier within that period. The hold does not last until the parcel physically arrives at the warehouse. If the dispatch deadline passes, the reservation is released and availability must be checked again. Support cannot promise stock from a catalog description.
+
+Exchanges use the same unused-condition and eligibility-window rules as standard returns. The store does not offer direct international exchanges. An international customer may use the return route if eligible and place a separate new order. Import taxes and international return transport are covered in the international-orders article. Exchange approval does not automatically waive a return-label fee.

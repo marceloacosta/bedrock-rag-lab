@@ -1,0 +1,7 @@
+Changing or cancelling an order
+
+Customers can request cancellation or an address correction during the first 30 minutes after placing an order, provided warehouse processing has not started. Both conditions must hold. A request sent within 30 minutes can still be too late if processing has already begun. After that point, support cannot guarantee an edit and the customer may need to use the return process after delivery.
+
+Adding products to an existing order is not supported. Place a new order for additional products. Two orders do not automatically share a shipping charge even when they go to the same address. If an address correction would move the shipment outside the product's eligible delivery area, support must check the product restrictions before accepting it.
+
+This page describes the policy window. It does not show the warehouse status of any specific order. A confirmation email proves the order was accepted, not that it is still editable. Do not tell a customer their order has been cancelled until the order system confirms cancellation. A customer may receive an authorization release at a different time from the cancellation confirmation; the payment-holds policy explains that distinction.

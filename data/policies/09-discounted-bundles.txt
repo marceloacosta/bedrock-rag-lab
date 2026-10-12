@@ -1,0 +1,7 @@
+Refund allocation for discounted bundles
+
+When a bundle has one discounted purchase price, allocate that price across its items in proportion to their individual prices at the time of purchase. Refunding one eligible item returns that allocated paid amount. It does not return the item's current price or its undiscounted original price. Retaining other items does not by itself cancel the allocation.
+
+The camping starter kit contains a lantern listed at USD 30, a stove listed at USD 50, and a carry case listed at USD 20. Their individual prices total USD 100. When the customer paid USD 80 for the kit, the allocated paid amounts are USD 24 for the lantern, USD 40 for the stove, and USD 16 for the case. These amounts total the USD 80 actually paid.
+
+The allocation determines money, not return eligibility. Check the condition, return window, gift status, and transport restrictions separately. A lantern that contains a lithium battery still follows the battery shipping rules. The recipient of an eligible gift return receives store credit under the gift policy; allocation does not change that credit into a bank-card refund. Original shipping fees and a purchased return label remain separate from these item amounts.

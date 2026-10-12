@@ -1,0 +1,1102 @@
+{
+  "questions": [
+    {
+      "id": "p01",
+      "kind": "direct",
+      "split": "development",
+      "question": "How long does a store hold a pickup order after sending the ready message?",
+      "expected": "Five calendar days from ready message.",
+      "required_evidence": [
+        "19-store-pickup"
+      ],
+      "facts": [
+        "five calendar days"
+      ],
+      "unknown": false
+    },
+    {
+      "id": "p02",
+      "kind": "combined",
+      "split": "development",
+      "question": "I received a gift starter kit bought for 80 dollars and want to return only its unused 20-dollar-list-price case after 35 days, using my own carrier. What credit do I get?",
+      "expected": "Eligible gift return within 45 days; case allocation USD 16, store credit. No store-label deduction when using own carrier.",
+      "required_evidence": [
+        "07-gift-returns",
+        "09-discounted-bundles",
+        "13-return-labels"
+      ],
+      "facts": [
+        "45 calendar days",
+        "USD 16 for the case",
+        "own suitable carrier"
+      ],
+      "unknown": false
+    },
+    {
+      "id": "p03",
+      "question": "When must an eligible express order be accepted for same-day dispatch, and what transit target follows?",
+      "facts": [
+        "before 13:00 Eastern Time",
+        "two-business-day transit target"
+      ]
+    },
+    {
+      "id": "p04",
+      "question": "I am a member ordering a roof cargo box. Is delivery free, and can I use express delivery?",
+      "facts": [
+        "costs USD 35 per order",
+        "Express parcel service is not available"
+      ]
+    },
+    {
+      "id": "p05",
+      "question": "I am a member ordering an ordinary jacket to the United Kingdom. What shipping charge applies and who pays import taxes?",
+      "facts": [
+        "costs USD 22 per order",
+        "paid by the recipient"
+      ]
+    },
+    {
+      "id": "p06",
+      "question": "The wrong jacket arrived three days ago. What photos should I keep, and do I pay the ordinary return-label fee after approval?",
+      "facts": [
+        "photograph the label, packing materials, and affected item",
+        "receives a prepaid label"
+      ]
+    },
+    {
+      "id": "p07",
+      "question": "Can I request a price adjustment for a final-sale outlet item after its price falls, and would that extend my return window?",
+      "facts": [
+        "Final-sale outlet items",
+        "extend the return window"
+      ]
+    },
+    {
+      "id": "p08",
+      "question": "I wore my new jacket on a camping trip. Does the hiking-boot fit trial let me return the jacket after use?",
+      "facts": [
+        "Used products cannot enter",
+        "hiking boots only"
+      ]
+    }
+  ],
+  "searches": {
+    "p01": {
+      "query": "How long does a store hold a pickup order after sending the ready message?",
+      "requested_k": 12,
+      "chunks": [
+        {
+          "id": "7a184c98ee5eec05",
+          "source": "19-store-pickup",
+          "text": "Collecting an online order in a store  Store pickup has no delivery fee when the chosen store has the product available. Wait for the ready-for-collection message before travelling. An order confirmation is not a ready message. The store holds a ready order for five calendar days from the ready message. Contact the store if collection within that period is not possible; the published policy does not guarantee an extension.  Bring the collection reference and identification matching the collecting person registered on the order. A purchaser may nominate another adult in the order portal before collection. A forwarded email alone does not add that person to the collection record. Inspect large items at the store and ask staff for help with loading when needed.  Pickup eligibility and stock are specific to each store. The online product catalog does not establish which store has an item today. The published pickup process cannot answer a live stock question or reserve a product on its own. Product return and warranty windows start from the recorded collection date for a pickup order.",
+          "rank": 1,
+          "score": 0.8411956429481506
+        },
+        {
+          "id": "d942267f5252cb2c",
+          "source": "11-oversize-delivery",
+          "text": "Store pickup may be available for an oversize item when the chosen store has stock. A catalog listing alone does not establish that a particular store has it. Do not carry a damaged or unstable load away from a pickup location.",
+          "rank": 2,
+          "score": 0.666431725025177
+        },
+        {
+          "id": "cd4b23e3bc54afea",
+          "source": "14-refund-timing",
+          "text": "When refunds arrive  The returns team normally inspects an ordinary parcel within five business days after warehouse receipt. Once the return is approved, the store submits the refund within two business days. A bank-card provider may then take another three to five business days to show the credit. These stages happen in sequence. A carrier delivery notification is not the same event as a completed inspection.  For planning, the longest published path is five business days for inspection, two for submission, and five for the card provider: up to 12 business days after warehouse receipt. That is a policy estimate, not a live payment-status lookup. Weekends and published holidays do not count as business days. A missing component or a dispute over condition can require further review.  Gift recipients receiving store credit are sent that credit after approval. The three-to-five-day bank-card processing period does not apply to issuing store credit. This page does not identify whether a particular return has been received, approved, or refunded.",
+          "rank": 3,
+          "score": 0.6512082517147064
+        },
+        {
+          "id": "e6cc30b70c422489",
+          "source": "22-payment-holds",
+          "text": "Payment authorization holds  When an order is placed, the card provider may show a pending authorization. The store captures payment when the order is dispatched. A pending entry and a captured payment are different states; the pending line alone does not prove a completed charge. If an order is cancelled before capture, the store releases the authorization rather than issuing a refund for a captured payment.  The card provider typically removes a released authorization within three to seven business days. The exact display time depends on that provider. Support cannot turn this policy range into a promise that a particular bank will remove the hold tomorrow. If a customer reports both a pending entry and a completed entry, check the payment record before calling it a duplicate charge.  The order-change policy controls whether an order can still be cancelled. This article does not extend the 30-minute request window or reverse warehouse processing. It also does not contain actual transaction records, card details, or authorization identifiers.",
+          "rank": 4,
+          "score": 0.6404750943183899
+        },
+        {
+          "id": "60dae024f2adbf1a",
+          "source": "19-store-pickup",
+          "text": "Product return and warranty windows start from the recorded collection date for a pickup order. Other eligibility conditions, including final-sale markings and product-specific trials, still apply.",
+          "rank": 5,
+          "score": 0.6379391252994537
+        },
+        {
+          "id": "157894c3fbda0208",
+          "source": "08-size-exchanges",
+          "text": "Exchanging a size or color  For a domestic order, an eligible unused product can be exchanged for a different size or color of the same model. The exchange keeps the original paid item price even if the current listing price changed. The replacement must be available when the request is approved. Exchanges into a different model are handled as a return followed by a new purchase at the new model's price.  The warehouse holds an approved replacement for seven calendar days. The customer must hand the returning parcel to the carrier within that period. The hold does not last until the parcel physically arrives at the warehouse. If the dispatch deadline passes, the reservation is released and availability must be checked again. Support cannot promise stock from a catalog description.  Exchanges use the same unused-condition and eligibility-window rules as standard returns. The store does not offer direct international exchanges. An international customer may use the return route if eligible and place a separate new order.",
+          "rank": 6,
+          "score": 0.6355380415916443
+        },
+        {
+          "id": "d6fe8d12e5448c46",
+          "source": "16-order-changes",
+          "text": "Do not tell a customer their order has been cancelled until the order system confirms cancellation. A customer may receive an authorization release at a different time from the cancellation confirmation; the payment-holds policy explains that distinction.",
+          "rank": 7,
+          "score": 0.6323583722114563
+        },
+        {
+          "id": "7a1120acbd6d8a9f",
+          "source": "16-order-changes",
+          "text": "Changing or cancelling an order  Customers can request cancellation or an address correction during the first 30 minutes after placing an order, provided warehouse processing has not started. Both conditions must hold. A request sent within 30 minutes can still be too late if processing has already begun. After that point, support cannot guarantee an edit and the customer may need to use the return process after delivery.  Adding products to an existing order is not supported. Place a new order for additional products. Two orders do not automatically share a shipping charge even when they go to the same address. If an address correction would move the shipment outside the product's eligible delivery area, support must check the product restrictions before accepting it.  This page describes the policy window. It does not show the warehouse status of any specific order. A confirmation email proves the order was accepted, not that it is still editable. Do not tell a customer their order has been cancelled until the order system confirms cancellation.",
+          "rank": 8,
+          "score": 0.6230937242507935
+        },
+        {
+          "id": "efdc78f24b69ba38",
+          "source": "06-express-delivery",
+          "text": "Express order processing  Express delivery for eligible ordinary parcels costs USD 18. It has a two-business-day transit target after dispatch. Orders accepted before 13:00 Eastern Time on a business day are dispatched that day. Orders accepted at or after 13:00, or on a weekend, are dispatched on the next business day. Business days for this policy are Monday through Friday excluding published holidays.  The transit clock starts after dispatch, not when the customer adds an item to the basket. For an eligible order placed on a Monday at 14:00 during a week with no holidays, dispatch is Tuesday and the two-business-day transit target is Thursday. Payment review or an address problem can prevent dispatch until the issue is resolved. Do not infer that a particular order cleared those checks from this policy alone.  Some product categories cannot use express delivery. Check the lithium-delivery and oversize-delivery articles before promising this service.",
+          "rank": 9,
+          "score": 0.60841104388237
+        },
+        {
+          "id": "50913a6804b7a320",
+          "source": "01-standard-returns",
+          "text": "Standard returns for unused gear  The online store accepts ordinary unused gear within 30 calendar days after delivery. Customers must open a return request in the order portal before that window ends. After approval, they have seven calendar days to hand the parcel to the carrier. The request date determines whether the return was opened on time; the carrier acceptance date determines whether the shipping deadline was met.  Keep the original tags attached and include all parts. Trying a jacket on indoors does not count as using it. Washing a garment, taking a sleeping bag camping, or removing a safety seal does count as use. Used products cannot enter the ordinary change-of-mind return process. Hiking boots have a separate fit-trial policy, and damaged products have a separate warranty process. An exception for one product category does not extend the window for other products in the same order.  The warehouse checks the condition before approving the refund. A return request is not itself a refund.",
+          "rank": 10,
+          "score": 0.6076761484146118
+        },
+        {
+          "id": "6674a2b72daa2f79",
+          "source": "07-gift-returns",
+          "text": "The return-label fee follows the ordinary return-label policy. A recipient may use their own carrier if they do not want to buy the store label. This article does not describe the expiration date or transferability of store credit.",
+          "rank": 11,
+          "score": 0.6056988835334778
+        },
+        {
+          "id": "4d1f98acd0aa38e7",
+          "source": "10-outlet-products",
+          "text": "The 14-day mismatch report window is a separate route from the manufacturing warranty. Do not describe it as a 14-day change-of-mind return right. Stock for a replacement outlet product is not guaranteed.",
+          "rank": 12,
+          "score": 0.6047850549221039
+        }
+      ],
+      "api_seconds": 1.2683196129992211
+    },
+    "p02": {
+      "query": "I received a gift starter kit bought for 80 dollars and want to return only its unused 20-dollar-list-price case after 35 days, using my own carrier. What credit do I get?",
+      "requested_k": 12,
+      "chunks": [
+        {
+          "id": "6674a2b72daa2f79",
+          "source": "07-gift-returns",
+          "text": "The return-label fee follows the ordinary return-label policy. A recipient may use their own carrier if they do not want to buy the store label. This article does not describe the expiration date or transferability of store credit.",
+          "rank": 1,
+          "score": 0.7388796210289001
+        },
+        {
+          "id": "5a086d73e44b9c4a",
+          "source": "07-gift-returns",
+          "text": "Returning a gift  A recipient with a gift receipt can return eligible unused gear within 45 calendar days after delivery. The recipient receives store credit equal to the item's paid price. The recipient does not receive a refund to their own bank card. If the purchaser requests the return through their original order, the normal purchaser-refund rules apply instead.  A gift receipt hides the price on the paper presented to the recipient, but the order system still records the actual amount paid. Discounts are included in that amount. For a product bought as part of a discounted bundle, use the bundle-allocation policy to calculate the paid amount for that product. Do not substitute the current shelf price, the pre-discount price, or the price of a replacement item.  Gift returns still require an approved request and must meet the condition requirements. The gift window does not make a used jacket returnable. The return-label fee follows the ordinary return-label policy.",
+          "rank": 2,
+          "score": 0.7161330580711365
+        },
+        {
+          "id": "39beb268ea940c7f",
+          "source": "20-delivery-damage",
+          "text": "Reporting delivery damage or the wrong product  Report visible transport damage or a wrong product within seven calendar days after delivery. Keep the outer packaging and photograph the label, packing materials, and affected item. The support team compares those details with the shipment record before approving the claim. If the item is unsafe to use, stop using it while the report is assessed.  An approved wrong-product or delivery-damage return receives a prepaid label. The customer does not pay the ordinary USD 7 change-of-mind label fee for that approved return. The team confirms whether a replacement or another remedy will be provided. A report being opened does not prove replacement inventory exists or establish a delivery date for the replacement.  Damage involving a rechargeable battery follows the separate damaged-battery procedure. Do not put a leaking or swollen battery in an ordinary return parcel even when support is investigating delivery damage. A manufacturing defect discovered later follows the product's warranty process.",
+          "rank": 3,
+          "score": 0.6985402703285217
+        },
+        {
+          "id": "50913a6804b7a320",
+          "source": "01-standard-returns",
+          "text": "Standard returns for unused gear  The online store accepts ordinary unused gear within 30 calendar days after delivery. Customers must open a return request in the order portal before that window ends. After approval, they have seven calendar days to hand the parcel to the carrier. The request date determines whether the return was opened on time; the carrier acceptance date determines whether the shipping deadline was met.  Keep the original tags attached and include all parts. Trying a jacket on indoors does not count as using it. Washing a garment, taking a sleeping bag camping, or removing a safety seal does count as use. Used products cannot enter the ordinary change-of-mind return process. Hiking boots have a separate fit-trial policy, and damaged products have a separate warranty process. An exception for one product category does not extend the window for other products in the same order.  The warehouse checks the condition before approving the refund. A return request is not itself a refund.",
+          "rank": 4,
+          "score": 0.6942707300186157
+        },
+        {
+          "id": "c85517983b3480bd",
+          "source": "09-discounted-bundles",
+          "text": "Refund allocation for discounted bundles  When a bundle has one discounted purchase price, allocate that price across its items in proportion to their individual prices at the time of purchase. Refunding one eligible item returns that allocated paid amount. It does not return the item's current price or its undiscounted original price. Retaining other items does not by itself cancel the allocation.  The camping starter kit contains a lantern listed at USD 30, a stove listed at USD 50, and a carry case listed at USD 20. Their individual prices total USD 100. When the customer paid USD 80 for the kit, the allocated paid amounts are USD 24 for the lantern, USD 40 for the stove, and USD 16 for the case. These amounts total the USD 80 actually paid.  The allocation determines money, not return eligibility. Check the condition, return window, gift status, and transport restrictions separately.",
+          "rank": 5,
+          "score": 0.6757513880729675
+        },
+        {
+          "id": "cd4b23e3bc54afea",
+          "source": "14-refund-timing",
+          "text": "When refunds arrive  The returns team normally inspects an ordinary parcel within five business days after warehouse receipt. Once the return is approved, the store submits the refund within two business days. A bank-card provider may then take another three to five business days to show the credit. These stages happen in sequence. A carrier delivery notification is not the same event as a completed inspection.  For planning, the longest published path is five business days for inspection, two for submission, and five for the card provider: up to 12 business days after warehouse receipt. That is a policy estimate, not a live payment-status lookup. Weekends and published holidays do not count as business days. A missing component or a dispute over condition can require further review.  Gift recipients receiving store credit are sent that credit after approval. The three-to-five-day bank-card processing period does not apply to issuing store credit. This page does not identify whether a particular return has been received, approved, or refunded.",
+          "rank": 6,
+          "score": 0.6757211089134216
+        },
+        {
+          "id": "ef9ca50a9737345a",
+          "source": "13-return-labels",
+          "text": "Who pays for a return label  For ordinary domestic change-of-mind returns, the store offers a ground label for USD 7 per parcel. If the customer uses it, USD 7 is deducted from the refund or store credit. A customer may instead arrange and pay for their own suitable carrier. A store label covers one parcel; two parcels require two labels. Membership does not waive this fee.  An approved wrong-item shipment or manufacturing-defect claim receives a prepaid label without the USD 7 deduction. The support team must approve that reason first. A customer selecting a defect reason in the portal is not sufficient proof that the claim has been approved. The hiking boot fit trial is a fit return, so the normal USD 7 label fee applies unless the customer supplies their own shipping.  Use suitable packaging and keep the carrier acceptance receipt. Items containing an undamaged lithium battery must use the eligible ground service.",
+          "rank": 7,
+          "score": 0.6749942898750305
+        },
+        {
+          "id": "50a77dee2958be7d",
+          "source": "01-standard-returns",
+          "text": "A return request is not itself a refund. Customers receive a receipt after the inspection is complete. Original outbound delivery charges are not refunded for a change of mind. The return-label policy explains who pays for sending an item back. Do not send an item to the warehouse without an approved return request.",
+          "rank": 8,
+          "score": 0.6736014783382416
+        },
+        {
+          "id": "feafb2b9c386c0ab",
+          "source": "04-lithium-delivery",
+          "text": "Tracking events come from the carrier after dispatch. Return transport for a device with a swollen, leaking, or damaged battery follows the damaged-battery procedure rather than the ordinary parcel-return process. Customers must not mail such a battery using an ordinary return label.",
+          "rank": 9,
+          "score": 0.6694854497909546
+        },
+        {
+          "id": "505e5f951174a07e",
+          "source": "09-discounted-bundles",
+          "text": "Check the condition, return window, gift status, and transport restrictions separately. A lantern that contains a lithium battery still follows the battery shipping rules. The recipient of an eligible gift return receives store credit under the gift policy; allocation does not change that credit into a bank-card refund. Original shipping fees and a purchased return label remain separate from these item amounts.",
+          "rank": 10,
+          "score": 0.6619563400745392
+        },
+        {
+          "id": "bbde1a1550ed6787",
+          "source": "17-damaged-batteries",
+          "text": "Swollen, leaking, or damaged rechargeable batteries  Stop using or charging a rechargeable device if its battery swells, leaks, or is visibly damaged. Do not send it through the ordinary returns process. The store's regular ground return label is not an approved way to ship a damaged battery. Contact the product safety team through the support form and choose the battery-safety category.  Provide the product model, purchase reference, a description of the damage, and photographs when it is safe to take them. The team gives the customer instructions for the specific product and location. Support agents must not improvise a packaging method or tell customers to remove a swollen battery. Follow the device manufacturer's safety instructions while waiting for the team.  The general shipping article permits certain undamaged battery products to travel by ground. That permission does not apply to a damaged battery. Whether the item qualifies for a warranty remedy is assessed separately from how it can be handled safely.",
+          "rank": 11,
+          "score": 0.6541635990142822
+        },
+        {
+          "id": "157894c3fbda0208",
+          "source": "08-size-exchanges",
+          "text": "Exchanging a size or color  For a domestic order, an eligible unused product can be exchanged for a different size or color of the same model. The exchange keeps the original paid item price even if the current listing price changed. The replacement must be available when the request is approved. Exchanges into a different model are handled as a return followed by a new purchase at the new model's price.  The warehouse holds an approved replacement for seven calendar days. The customer must hand the returning parcel to the carrier within that period. The hold does not last until the parcel physically arrives at the warehouse. If the dispatch deadline passes, the reservation is released and availability must be checked again. Support cannot promise stock from a catalog description.  Exchanges use the same unused-condition and eligibility-window rules as standard returns. The store does not offer direct international exchanges. An international customer may use the return route if eligible and place a separate new order.",
+          "rank": 12,
+          "score": 0.6476925015449524
+        }
+      ],
+      "api_seconds": 0.5366428050001559
+    },
+    "p03": {
+      "query": "When must an eligible express order be accepted for same-day dispatch, and what transit target follows?",
+      "requested_k": 12,
+      "chunks": [
+        {
+          "id": "efdc78f24b69ba38",
+          "source": "06-express-delivery",
+          "text": "Express order processing  Express delivery for eligible ordinary parcels costs USD 18. It has a two-business-day transit target after dispatch. Orders accepted before 13:00 Eastern Time on a business day are dispatched that day. Orders accepted at or after 13:00, or on a weekend, are dispatched on the next business day. Business days for this policy are Monday through Friday excluding published holidays.  The transit clock starts after dispatch, not when the customer adds an item to the basket. For an eligible order placed on a Monday at 14:00 during a week with no holidays, dispatch is Tuesday and the two-business-day transit target is Thursday. Payment review or an address problem can prevent dispatch until the issue is resolved. Do not infer that a particular order cleared those checks from this policy alone.  Some product categories cannot use express delivery. Check the lithium-delivery and oversize-delivery articles before promising this service.",
+          "rank": 1,
+          "score": 0.7983907759189606
+        },
+        {
+          "id": "7a184c98ee5eec05",
+          "source": "19-store-pickup",
+          "text": "Collecting an online order in a store  Store pickup has no delivery fee when the chosen store has the product available. Wait for the ready-for-collection message before travelling. An order confirmation is not a ready message. The store holds a ready order for five calendar days from the ready message. Contact the store if collection within that period is not possible; the published policy does not guarantee an extension.  Bring the collection reference and identification matching the collecting person registered on the order. A purchaser may nominate another adult in the order portal before collection. A forwarded email alone does not add that person to the collection record. Inspect large items at the store and ask staff for help with loading when needed.  Pickup eligibility and stock are specific to each store. The online product catalog does not establish which store has an item today. The published pickup process cannot answer a live stock question or reserve a product on its own. Product return and warranty windows start from the recorded collection date for a pickup order.",
+          "rank": 2,
+          "score": 0.6543242931365967
+        },
+        {
+          "id": "3ad36d7e93bac034",
+          "source": "05-shipping-prices",
+          "text": "Express service has its own price and restrictions; free standard delivery does not mean free express delivery. Any original outbound shipping charge remains separate from the item price when the customer later makes a change-of-mind return. The checkout presents the final delivery options before payment.",
+          "rank": 3,
+          "score": 0.6421736776828766
+        },
+        {
+          "id": "d17659c59af6700e",
+          "source": "04-lithium-delivery",
+          "text": "Delivery restrictions for rechargeable products  Products containing lithium batteries travel by ground service within the contiguous United States. The rule covers rechargeable lanterns, headlamps, power banks, and navigation devices, including products whose batteries are installed inside the equipment. These products cannot be sent by our air services, to Alaska or Hawaii, or to an international destination.  Selecting express shipping at checkout does not override this restriction. If a mixed order includes an ordinary item and a rechargeable device, the rechargeable item still travels by ground. A support agent must not promise that paying the express surcharge makes a battery shipment eligible for air transport. The customer can remove the battery product and place a separate order for the other items if those items qualify for the requested service.  Ground shipping has the delivery estimate shown at checkout for the destination. This policy does not supply a guaranteed arrival date for a particular parcel. Tracking events come from the carrier after dispatch.",
+          "rank": 4,
+          "score": 0.6232751607894897
+        },
+        {
+          "id": "bb381b9b3123e92a",
+          "source": "05-shipping-prices",
+          "text": "Standard delivery prices  For ordinary parcels to the contiguous United States, standard ground delivery costs USD 6 when the qualifying merchandise subtotal is below USD 75. At USD 75 or more, standard delivery is free. The qualifying subtotal is calculated after discounts and before sales tax. Gift cards do not count toward it. A basket that was above the threshold before a discount may fall below it afterward.  An active store membership reduces the free standard-delivery threshold to USD 40. The membership must be active when the order is placed. Becoming a member later does not retroactively refund an earlier delivery charge. Membership is linked to the purchasing customer, not automatically to everyone at the same address.  Oversize products have a separate delivery charge and do not receive free delivery under either threshold. The oversize-delivery article explains the fee. Express service has its own price and restrictions; free standard delivery does not mean free express delivery.",
+          "rank": 5,
+          "score": 0.6192650496959686
+        },
+        {
+          "id": "7a1120acbd6d8a9f",
+          "source": "16-order-changes",
+          "text": "Changing or cancelling an order  Customers can request cancellation or an address correction during the first 30 minutes after placing an order, provided warehouse processing has not started. Both conditions must hold. A request sent within 30 minutes can still be too late if processing has already begun. After that point, support cannot guarantee an edit and the customer may need to use the return process after delivery.  Adding products to an existing order is not supported. Place a new order for additional products. Two orders do not automatically share a shipping charge even when they go to the same address. If an address correction would move the shipment outside the product's eligible delivery area, support must check the product restrictions before accepting it.  This page describes the policy window. It does not show the warehouse status of any specific order. A confirmation email proves the order was accepted, not that it is still editable. Do not tell a customer their order has been cancelled until the order system confirms cancellation.",
+          "rank": 6,
+          "score": 0.6177805662155151
+        },
+        {
+          "id": "8bf7db6fd7826bf0",
+          "source": "06-express-delivery",
+          "text": "Check the lithium-delivery and oversize-delivery articles before promising this service. A customer cannot pay a surcharge to remove a product restriction. The membership benefit covers qualifying standard delivery only. It does not discount the USD 18 express price or change the cutoff time.",
+          "rank": 7,
+          "score": 0.6166448295116425
+        },
+        {
+          "id": "cd4b23e3bc54afea",
+          "source": "14-refund-timing",
+          "text": "When refunds arrive  The returns team normally inspects an ordinary parcel within five business days after warehouse receipt. Once the return is approved, the store submits the refund within two business days. A bank-card provider may then take another three to five business days to show the credit. These stages happen in sequence. A carrier delivery notification is not the same event as a completed inspection.  For planning, the longest published path is five business days for inspection, two for submission, and five for the card provider: up to 12 business days after warehouse receipt. That is a policy estimate, not a live payment-status lookup. Weekends and published holidays do not count as business days. A missing component or a dispute over condition can require further review.  Gift recipients receiving store credit are sent that credit after approval. The three-to-five-day bank-card processing period does not apply to issuing store credit. This page does not identify whether a particular return has been received, approved, or refunded.",
+          "rank": 8,
+          "score": 0.6154596209526062
+        },
+        {
+          "id": "60e024a9efacae5c",
+          "source": "20-delivery-damage",
+          "text": "A manufacturing defect discovered later follows the product's warranty process. The seven-day transport-report window does not shorten a separately applicable manufacturing warranty.",
+          "rank": 9,
+          "score": 0.6108452677726746
+        },
+        {
+          "id": "219a0eb840da271f",
+          "source": "13-return-labels",
+          "text": "Items containing an undamaged lithium battery must use the eligible ground service. A damaged, swollen, or leaking battery must never be sent using this ordinary label; use the damaged-battery procedure. Label creation does not count as dispatch. The parcel must actually be handed to the carrier within the return's dispatch deadline.",
+          "rank": 10,
+          "score": 0.6060580909252167
+        },
+        {
+          "id": "39beb268ea940c7f",
+          "source": "20-delivery-damage",
+          "text": "Reporting delivery damage or the wrong product  Report visible transport damage or a wrong product within seven calendar days after delivery. Keep the outer packaging and photograph the label, packing materials, and affected item. The support team compares those details with the shipment record before approving the claim. If the item is unsafe to use, stop using it while the report is assessed.  An approved wrong-product or delivery-damage return receives a prepaid label. The customer does not pay the ordinary USD 7 change-of-mind label fee for that approved return. The team confirms whether a replacement or another remedy will be provided. A report being opened does not prove replacement inventory exists or establish a delivery date for the replacement.  Damage involving a rechargeable battery follows the separate damaged-battery procedure. Do not put a leaking or swollen battery in an ordinary return parcel even when support is investigating delivery damage. A manufacturing defect discovered later follows the product's warranty process.",
+          "rank": 11,
+          "score": 0.6056392192840576
+        },
+        {
+          "id": "60dae024f2adbf1a",
+          "source": "19-store-pickup",
+          "text": "Product return and warranty windows start from the recorded collection date for a pickup order. Other eligibility conditions, including final-sale markings and product-specific trials, still apply.",
+          "rank": 12,
+          "score": 0.6031662225723267
+        }
+      ],
+      "api_seconds": 0.46718513699943287
+    },
+    "p04": {
+      "query": "I am a member ordering a roof cargo box. Is delivery free, and can I use express delivery?",
+      "requested_k": 12,
+      "chunks": [
+        {
+          "id": "3ad36d7e93bac034",
+          "source": "05-shipping-prices",
+          "text": "Express service has its own price and restrictions; free standard delivery does not mean free express delivery. Any original outbound shipping charge remains separate from the item price when the customer later makes a change-of-mind return. The checkout presents the final delivery options before payment.",
+          "rank": 1,
+          "score": 0.806047260761261
+        },
+        {
+          "id": "efdc78f24b69ba38",
+          "source": "06-express-delivery",
+          "text": "Express order processing  Express delivery for eligible ordinary parcels costs USD 18. It has a two-business-day transit target after dispatch. Orders accepted before 13:00 Eastern Time on a business day are dispatched that day. Orders accepted at or after 13:00, or on a weekend, are dispatched on the next business day. Business days for this policy are Monday through Friday excluding published holidays.  The transit clock starts after dispatch, not when the customer adds an item to the basket. For an eligible order placed on a Monday at 14:00 during a week with no holidays, dispatch is Tuesday and the two-business-day transit target is Thursday. Payment review or an address problem can prevent dispatch until the issue is resolved. Do not infer that a particular order cleared those checks from this policy alone.  Some product categories cannot use express delivery. Check the lithium-delivery and oversize-delivery articles before promising this service.",
+          "rank": 2,
+          "score": 0.7435444295406342
+        },
+        {
+          "id": "bb381b9b3123e92a",
+          "source": "05-shipping-prices",
+          "text": "Standard delivery prices  For ordinary parcels to the contiguous United States, standard ground delivery costs USD 6 when the qualifying merchandise subtotal is below USD 75. At USD 75 or more, standard delivery is free. The qualifying subtotal is calculated after discounts and before sales tax. Gift cards do not count toward it. A basket that was above the threshold before a discount may fall below it afterward.  An active store membership reduces the free standard-delivery threshold to USD 40. The membership must be active when the order is placed. Becoming a member later does not retroactively refund an earlier delivery charge. Membership is linked to the purchasing customer, not automatically to everyone at the same address.  Oversize products have a separate delivery charge and do not receive free delivery under either threshold. The oversize-delivery article explains the fee. Express service has its own price and restrictions; free standard delivery does not mean free express delivery.",
+          "rank": 3,
+          "score": 0.7409594058990479
+        },
+        {
+          "id": "8bf7db6fd7826bf0",
+          "source": "06-express-delivery",
+          "text": "Check the lithium-delivery and oversize-delivery articles before promising this service. A customer cannot pay a surcharge to remove a product restriction. The membership benefit covers qualifying standard delivery only. It does not discount the USD 18 express price or change the cutoff time.",
+          "rank": 4,
+          "score": 0.7381476759910583
+        },
+        {
+          "id": "d83f7e2fda469565",
+          "source": "11-oversize-delivery",
+          "text": "Oversize delivery for kayaks and cargo boxes  Kayaks and rigid roof cargo boxes are oversize products. Delivery to an eligible address in the contiguous United States costs USD 35 per order containing oversize items. Neither the ordinary free-shipping threshold nor the membership threshold waives this fee. Adding a small accessory to the order does not turn the oversize shipment into an ordinary parcel.  Oversize deliveries use a scheduled ground carrier. Express parcel service is not available for these products. The carrier contacts the customer to arrange an appointment after the shipment is ready. The documentation does not provide a fixed appointment date for any particular order. Support must check the live shipment record before discussing an actual delivery appointment.  At delivery, inspect the outer packaging before signing and photograph visible transport damage. If damage is discovered afterward, use the delivery-damage reporting policy. Store pickup may be available for an oversize item when the chosen store has stock.",
+          "rank": 5,
+          "score": 0.7147514224052429
+        },
+        {
+          "id": "625cd04d1852c6b0",
+          "source": "12-member-benefits",
+          "text": "Store membership benefits  An active annual membership costs USD 24 and lasts 12 months from purchase. Members receive the lower standard-delivery threshold described in the shipping-price policy and can join the equipment-repair queue with priority handling. Priority handling changes the queue position; it does not make the repair free or guarantee a completion date.  Membership does not waive return-label charges, express-delivery charges, oversize-delivery charges, or repair prices. It does not extend the standard return window or the boot fit-trial window. A customer who has both a membership and an eligible product-specific benefit can use those benefits under their separate rules. Support should state which benefit applies rather than calling all shipping or returns free.  Benefits start when membership is activated. Orders placed before activation retain their original delivery charges. A membership is attached to one customer account and cannot be shared across unrelated accounts. The policy explains the benefits and annual duration; it does not reveal a particular customer's current membership status.",
+          "rank": 6,
+          "score": 0.7060155272483826
+        },
+        {
+          "id": "d17659c59af6700e",
+          "source": "04-lithium-delivery",
+          "text": "Delivery restrictions for rechargeable products  Products containing lithium batteries travel by ground service within the contiguous United States. The rule covers rechargeable lanterns, headlamps, power banks, and navigation devices, including products whose batteries are installed inside the equipment. These products cannot be sent by our air services, to Alaska or Hawaii, or to an international destination.  Selecting express shipping at checkout does not override this restriction. If a mixed order includes an ordinary item and a rechargeable device, the rechargeable item still travels by ground. A support agent must not promise that paying the express surcharge makes a battery shipment eligible for air transport. The customer can remove the battery product and place a separate order for the other items if those items qualify for the requested service.  Ground shipping has the delivery estimate shown at checkout for the destination. This policy does not supply a guaranteed arrival date for a particular parcel. Tracking events come from the carrier after dispatch.",
+          "rank": 7,
+          "score": 0.6812852621078491
+        },
+        {
+          "id": "1e9eb0049886cd25",
+          "source": "15-international-orders",
+          "text": "International deliveries and returns  The store ships eligible ordinary products to Canada and the United Kingdom. International standard shipping costs USD 22 per order. Domestic membership and ordinary free-delivery thresholds do not apply to international shipping. Local import taxes and customs charges are paid by the recipient and are separate from the amount charged by the store.  Lithium-battery products, kayaks, and rigid roof cargo boxes are excluded from international delivery. An item being small enough to fit in a parcel does not remove a lithium-battery restriction. An international customer must not select a domestic destination as a placeholder and expect support to reroute a restricted product across the border.  Eligible international change-of-mind returns use the normal unused-condition and return-window rules. The customer arranges and pays the return transport. The store does not issue the USD 7 domestic return label for an international parcel. Import taxes are not refunded by the store.",
+          "rank": 8,
+          "score": 0.6589726805686951
+        },
+        {
+          "id": "50a77dee2958be7d",
+          "source": "01-standard-returns",
+          "text": "A return request is not itself a refund. Customers receive a receipt after the inspection is complete. Original outbound delivery charges are not refunded for a change of mind. The return-label policy explains who pays for sending an item back. Do not send an item to the warehouse without an approved return request.",
+          "rank": 9,
+          "score": 0.6184089183807373
+        },
+        {
+          "id": "39beb268ea940c7f",
+          "source": "20-delivery-damage",
+          "text": "Reporting delivery damage or the wrong product  Report visible transport damage or a wrong product within seven calendar days after delivery. Keep the outer packaging and photograph the label, packing materials, and affected item. The support team compares those details with the shipment record before approving the claim. If the item is unsafe to use, stop using it while the report is assessed.  An approved wrong-product or delivery-damage return receives a prepaid label. The customer does not pay the ordinary USD 7 change-of-mind label fee for that approved return. The team confirms whether a replacement or another remedy will be provided. A report being opened does not prove replacement inventory exists or establish a delivery date for the replacement.  Damage involving a rechargeable battery follows the separate damaged-battery procedure. Do not put a leaking or swollen battery in an ordinary return parcel even when support is investigating delivery damage. A manufacturing defect discovered later follows the product's warranty process.",
+          "rank": 10,
+          "score": 0.6158650815486908
+        },
+        {
+          "id": "f124982f43d0503a",
+          "source": "08-size-exchanges",
+          "text": "An international customer may use the return route if eligible and place a separate new order. Import taxes and international return transport are covered in the international-orders article. Exchange approval does not automatically waive a return-label fee.",
+          "rank": 11,
+          "score": 0.6106155216693878
+        },
+        {
+          "id": "5092d67cdea31716",
+          "source": "12-member-benefits",
+          "text": "The policy explains the benefits and annual duration; it does not reveal a particular customer's current membership status. Check the customer's membership record before applying benefits to a live order. Refund treatment for an already-used membership is not specified in this policy.",
+          "rank": 12,
+          "score": 0.6039169430732727
+        }
+      ],
+      "api_seconds": 0.5735083290001057
+    },
+    "p05": {
+      "query": "I am a member ordering an ordinary jacket to the United Kingdom. What shipping charge applies and who pays import taxes?",
+      "requested_k": 12,
+      "chunks": [
+        {
+          "id": "1e9eb0049886cd25",
+          "source": "15-international-orders",
+          "text": "International deliveries and returns  The store ships eligible ordinary products to Canada and the United Kingdom. International standard shipping costs USD 22 per order. Domestic membership and ordinary free-delivery thresholds do not apply to international shipping. Local import taxes and customs charges are paid by the recipient and are separate from the amount charged by the store.  Lithium-battery products, kayaks, and rigid roof cargo boxes are excluded from international delivery. An item being small enough to fit in a parcel does not remove a lithium-battery restriction. An international customer must not select a domestic destination as a placeholder and expect support to reroute a restricted product across the border.  Eligible international change-of-mind returns use the normal unused-condition and return-window rules. The customer arranges and pays the return transport. The store does not issue the USD 7 domestic return label for an international parcel. Import taxes are not refunded by the store.",
+          "rank": 1,
+          "score": 0.7323643565177917
+        },
+        {
+          "id": "8b6e727fe3dc0e09",
+          "source": "15-international-orders",
+          "text": "Import taxes are not refunded by the store. Direct size or color exchanges are unavailable for international orders; return an eligible item and place a new order instead. Availability, exchange rates, and customs clearance times for a particular order are not maintained in these policy pages.",
+          "rank": 2,
+          "score": 0.6712276935577393
+        },
+        {
+          "id": "f124982f43d0503a",
+          "source": "08-size-exchanges",
+          "text": "An international customer may use the return route if eligible and place a separate new order. Import taxes and international return transport are covered in the international-orders article. Exchange approval does not automatically waive a return-label fee.",
+          "rank": 3,
+          "score": 0.6377139091491699
+        },
+        {
+          "id": "ef9ca50a9737345a",
+          "source": "13-return-labels",
+          "text": "Who pays for a return label  For ordinary domestic change-of-mind returns, the store offers a ground label for USD 7 per parcel. If the customer uses it, USD 7 is deducted from the refund or store credit. A customer may instead arrange and pay for their own suitable carrier. A store label covers one parcel; two parcels require two labels. Membership does not waive this fee.  An approved wrong-item shipment or manufacturing-defect claim receives a prepaid label without the USD 7 deduction. The support team must approve that reason first. A customer selecting a defect reason in the portal is not sufficient proof that the claim has been approved. The hiking boot fit trial is a fit return, so the normal USD 7 label fee applies unless the customer supplies their own shipping.  Use suitable packaging and keep the carrier acceptance receipt. Items containing an undamaged lithium battery must use the eligible ground service.",
+          "rank": 4,
+          "score": 0.618995726108551
+        },
+        {
+          "id": "625cd04d1852c6b0",
+          "source": "12-member-benefits",
+          "text": "Store membership benefits  An active annual membership costs USD 24 and lasts 12 months from purchase. Members receive the lower standard-delivery threshold described in the shipping-price policy and can join the equipment-repair queue with priority handling. Priority handling changes the queue position; it does not make the repair free or guarantee a completion date.  Membership does not waive return-label charges, express-delivery charges, oversize-delivery charges, or repair prices. It does not extend the standard return window or the boot fit-trial window. A customer who has both a membership and an eligible product-specific benefit can use those benefits under their separate rules. Support should state which benefit applies rather than calling all shipping or returns free.  Benefits start when membership is activated. Orders placed before activation retain their original delivery charges. A membership is attached to one customer account and cannot be shared across unrelated accounts. The policy explains the benefits and annual duration; it does not reveal a particular customer's current membership status.",
+          "rank": 5,
+          "score": 0.6161163747310638
+        },
+        {
+          "id": "bb381b9b3123e92a",
+          "source": "05-shipping-prices",
+          "text": "Standard delivery prices  For ordinary parcels to the contiguous United States, standard ground delivery costs USD 6 when the qualifying merchandise subtotal is below USD 75. At USD 75 or more, standard delivery is free. The qualifying subtotal is calculated after discounts and before sales tax. Gift cards do not count toward it. A basket that was above the threshold before a discount may fall below it afterward.  An active store membership reduces the free standard-delivery threshold to USD 40. The membership must be active when the order is placed. Becoming a member later does not retroactively refund an earlier delivery charge. Membership is linked to the purchasing customer, not automatically to everyone at the same address.  Oversize products have a separate delivery charge and do not receive free delivery under either threshold. The oversize-delivery article explains the fee. Express service has its own price and restrictions; free standard delivery does not mean free express delivery.",
+          "rank": 6,
+          "score": 0.60331791639328
+        },
+        {
+          "id": "d83f7e2fda469565",
+          "source": "11-oversize-delivery",
+          "text": "Oversize delivery for kayaks and cargo boxes  Kayaks and rigid roof cargo boxes are oversize products. Delivery to an eligible address in the contiguous United States costs USD 35 per order containing oversize items. Neither the ordinary free-shipping threshold nor the membership threshold waives this fee. Adding a small accessory to the order does not turn the oversize shipment into an ordinary parcel.  Oversize deliveries use a scheduled ground carrier. Express parcel service is not available for these products. The carrier contacts the customer to arrange an appointment after the shipment is ready. The documentation does not provide a fixed appointment date for any particular order. Support must check the live shipment record before discussing an actual delivery appointment.  At delivery, inspect the outer packaging before signing and photograph visible transport damage. If damage is discovered afterward, use the delivery-damage reporting policy. Store pickup may be available for an oversize item when the chosen store has stock.",
+          "rank": 7,
+          "score": 0.6022630929946899
+        },
+        {
+          "id": "8bf7db6fd7826bf0",
+          "source": "06-express-delivery",
+          "text": "Check the lithium-delivery and oversize-delivery articles before promising this service. A customer cannot pay a surcharge to remove a product restriction. The membership benefit covers qualifying standard delivery only. It does not discount the USD 18 express price or change the cutoff time.",
+          "rank": 8,
+          "score": 0.5989219546318054
+        },
+        {
+          "id": "3ad36d7e93bac034",
+          "source": "05-shipping-prices",
+          "text": "Express service has its own price and restrictions; free standard delivery does not mean free express delivery. Any original outbound shipping charge remains separate from the item price when the customer later makes a change-of-mind return. The checkout presents the final delivery options before payment.",
+          "rank": 9,
+          "score": 0.5901181697845459
+        },
+        {
+          "id": "b62064cd43325a7f",
+          "source": "03-tent-warranty",
+          "text": "An approved manufacturing-defect claim receives a prepaid ground label. For a paid repair, shipping is included only if the individual quotation says so. Warranty decisions apply to the specific damage inspected. A previous approved claim does not guarantee that a different problem will also be covered.",
+          "rank": 10,
+          "score": 0.5852992236614227
+        },
+        {
+          "id": "d17659c59af6700e",
+          "source": "04-lithium-delivery",
+          "text": "Delivery restrictions for rechargeable products  Products containing lithium batteries travel by ground service within the contiguous United States. The rule covers rechargeable lanterns, headlamps, power banks, and navigation devices, including products whose batteries are installed inside the equipment. These products cannot be sent by our air services, to Alaska or Hawaii, or to an international destination.  Selecting express shipping at checkout does not override this restriction. If a mixed order includes an ordinary item and a rechargeable device, the rechargeable item still travels by ground. A support agent must not promise that paying the express surcharge makes a battery shipment eligible for air transport. The customer can remove the battery product and place a separate order for the other items if those items qualify for the requested service.  Ground shipping has the delivery estimate shown at checkout for the destination. This policy does not supply a guaranteed arrival date for a particular parcel. Tracking events come from the carrier after dispatch.",
+          "rank": 11,
+          "score": 0.5690568685531616
+        },
+        {
+          "id": "50a77dee2958be7d",
+          "source": "01-standard-returns",
+          "text": "A return request is not itself a refund. Customers receive a receipt after the inspection is complete. Original outbound delivery charges are not refunded for a change of mind. The return-label policy explains who pays for sending an item back. Do not send an item to the warehouse without an approved return request.",
+          "rank": 12,
+          "score": 0.5661876797676086
+        }
+      ],
+      "api_seconds": 0.5283716670001013
+    },
+    "p06": {
+      "query": "The wrong jacket arrived three days ago. What photos should I keep, and do I pay the ordinary return-label fee after approval?",
+      "requested_k": 12,
+      "chunks": [
+        {
+          "id": "ef9ca50a9737345a",
+          "source": "13-return-labels",
+          "text": "Who pays for a return label  For ordinary domestic change-of-mind returns, the store offers a ground label for USD 7 per parcel. If the customer uses it, USD 7 is deducted from the refund or store credit. A customer may instead arrange and pay for their own suitable carrier. A store label covers one parcel; two parcels require two labels. Membership does not waive this fee.  An approved wrong-item shipment or manufacturing-defect claim receives a prepaid label without the USD 7 deduction. The support team must approve that reason first. A customer selecting a defect reason in the portal is not sufficient proof that the claim has been approved. The hiking boot fit trial is a fit return, so the normal USD 7 label fee applies unless the customer supplies their own shipping.  Use suitable packaging and keep the carrier acceptance receipt. Items containing an undamaged lithium battery must use the eligible ground service.",
+          "rank": 1,
+          "score": 0.7513009011745453
+        },
+        {
+          "id": "f124982f43d0503a",
+          "source": "08-size-exchanges",
+          "text": "An international customer may use the return route if eligible and place a separate new order. Import taxes and international return transport are covered in the international-orders article. Exchange approval does not automatically waive a return-label fee.",
+          "rank": 2,
+          "score": 0.7162196040153503
+        },
+        {
+          "id": "50a77dee2958be7d",
+          "source": "01-standard-returns",
+          "text": "A return request is not itself a refund. Customers receive a receipt after the inspection is complete. Original outbound delivery charges are not refunded for a change of mind. The return-label policy explains who pays for sending an item back. Do not send an item to the warehouse without an approved return request.",
+          "rank": 3,
+          "score": 0.7101056575775146
+        },
+        {
+          "id": "39beb268ea940c7f",
+          "source": "20-delivery-damage",
+          "text": "Reporting delivery damage or the wrong product  Report visible transport damage or a wrong product within seven calendar days after delivery. Keep the outer packaging and photograph the label, packing materials, and affected item. The support team compares those details with the shipment record before approving the claim. If the item is unsafe to use, stop using it while the report is assessed.  An approved wrong-product or delivery-damage return receives a prepaid label. The customer does not pay the ordinary USD 7 change-of-mind label fee for that approved return. The team confirms whether a replacement or another remedy will be provided. A report being opened does not prove replacement inventory exists or establish a delivery date for the replacement.  Damage involving a rechargeable battery follows the separate damaged-battery procedure. Do not put a leaking or swollen battery in an ordinary return parcel even when support is investigating delivery damage. A manufacturing defect discovered later follows the product's warranty process.",
+          "rank": 4,
+          "score": 0.7101023197174072
+        },
+        {
+          "id": "6674a2b72daa2f79",
+          "source": "07-gift-returns",
+          "text": "The return-label fee follows the ordinary return-label policy. A recipient may use their own carrier if they do not want to buy the store label. This article does not describe the expiration date or transferability of store credit.",
+          "rank": 5,
+          "score": 0.6961772739887238
+        },
+        {
+          "id": "b62064cd43325a7f",
+          "source": "03-tent-warranty",
+          "text": "An approved manufacturing-defect claim receives a prepaid ground label. For a paid repair, shipping is included only if the individual quotation says so. Warranty decisions apply to the specific damage inspected. A previous approved claim does not guarantee that a different problem will also be covered.",
+          "rank": 6,
+          "score": 0.688035786151886
+        },
+        {
+          "id": "5a086d73e44b9c4a",
+          "source": "07-gift-returns",
+          "text": "Returning a gift  A recipient with a gift receipt can return eligible unused gear within 45 calendar days after delivery. The recipient receives store credit equal to the item's paid price. The recipient does not receive a refund to their own bank card. If the purchaser requests the return through their original order, the normal purchaser-refund rules apply instead.  A gift receipt hides the price on the paper presented to the recipient, but the order system still records the actual amount paid. Discounts are included in that amount. For a product bought as part of a discounted bundle, use the bundle-allocation policy to calculate the paid amount for that product. Do not substitute the current shelf price, the pre-discount price, or the price of a replacement item.  Gift returns still require an approved request and must meet the condition requirements. The gift window does not make a used jacket returnable. The return-label fee follows the ordinary return-label policy.",
+          "rank": 7,
+          "score": 0.6682653427124023
+        },
+        {
+          "id": "219a0eb840da271f",
+          "source": "13-return-labels",
+          "text": "Items containing an undamaged lithium battery must use the eligible ground service. A damaged, swollen, or leaking battery must never be sent using this ordinary label; use the damaged-battery procedure. Label creation does not count as dispatch. The parcel must actually be handed to the carrier within the return's dispatch deadline.",
+          "rank": 8,
+          "score": 0.6492869853973389
+        },
+        {
+          "id": "157894c3fbda0208",
+          "source": "08-size-exchanges",
+          "text": "Exchanging a size or color  For a domestic order, an eligible unused product can be exchanged for a different size or color of the same model. The exchange keeps the original paid item price even if the current listing price changed. The replacement must be available when the request is approved. Exchanges into a different model are handled as a return followed by a new purchase at the new model's price.  The warehouse holds an approved replacement for seven calendar days. The customer must hand the returning parcel to the carrier within that period. The hold does not last until the parcel physically arrives at the warehouse. If the dispatch deadline passes, the reservation is released and availability must be checked again. Support cannot promise stock from a catalog description.  Exchanges use the same unused-condition and eligibility-window rules as standard returns. The store does not offer direct international exchanges. An international customer may use the return route if eligible and place a separate new order.",
+          "rank": 9,
+          "score": 0.6458471119403839
+        },
+        {
+          "id": "50913a6804b7a320",
+          "source": "01-standard-returns",
+          "text": "Standard returns for unused gear  The online store accepts ordinary unused gear within 30 calendar days after delivery. Customers must open a return request in the order portal before that window ends. After approval, they have seven calendar days to hand the parcel to the carrier. The request date determines whether the return was opened on time; the carrier acceptance date determines whether the shipping deadline was met.  Keep the original tags attached and include all parts. Trying a jacket on indoors does not count as using it. Washing a garment, taking a sleeping bag camping, or removing a safety seal does count as use. Used products cannot enter the ordinary change-of-mind return process. Hiking boots have a separate fit-trial policy, and damaged products have a separate warranty process. An exception for one product category does not extend the window for other products in the same order.  The warehouse checks the condition before approving the refund. A return request is not itself a refund.",
+          "rank": 10,
+          "score": 0.6433184742927551
+        },
+        {
+          "id": "feafb2b9c386c0ab",
+          "source": "04-lithium-delivery",
+          "text": "Tracking events come from the carrier after dispatch. Return transport for a device with a swollen, leaking, or damaged battery follows the damaged-battery procedure rather than the ordinary parcel-return process. Customers must not mail such a battery using an ordinary return label.",
+          "rank": 11,
+          "score": 0.6413408517837524
+        },
+        {
+          "id": "ccb0a1b0e26c549e",
+          "source": "02-boot-fit-trial",
+          "text": "This trial changes the eligibility window and acceptable wear for hiking boots only. It does not change the price of a return label. Read the return-label policy for the applicable fee and the membership policy for any shipping benefits. The fit trial does not promise a particular replacement model will be in stock.",
+          "rank": 12,
+          "score": 0.6363469958305359
+        }
+      ],
+      "api_seconds": 0.45032143500066013
+    },
+    "p07": {
+      "query": "Can I request a price adjustment for a final-sale outlet item after its price falls, and would that extend my return window?",
+      "requested_k": 12,
+      "chunks": [
+        {
+          "id": "5107254e416f5cdf",
+          "source": "21-price-adjustments",
+          "text": "Price adjustments after a purchase  If the store lowers the price of the identical model, size, and color within seven calendar days of an online purchase, the purchaser may request one price adjustment. The lower-priced item must be available to buy when the request is made. A price on another retailer's website does not qualify. A different color or size is not an identical item for this policy.  Final-sale outlet items, bundle promotions, gift-card purchases, and one-use personalized coupons are excluded. The adjustment returns the eligible price difference to the original payment method after approval. It does not change the original order date, extend the return window, or remove a product's shipping restrictions.  Support needs the original purchase record and the current matching listing to decide a live request. These policy documents contain the rule, not today's product prices or inventory. A customer asking for the exact difference on a particular order needs those live values.",
+          "rank": 1,
+          "score": 0.8460335731506348
+        },
+        {
+          "id": "f1993cace94ca375",
+          "source": "10-outlet-products",
+          "text": "Outlet and final-sale products  Products marked final sale in the outlet cannot be returned merely because the customer changes their mind, chooses the wrong color, or finds a lower price later. The final-sale marking appears on the product page and the order confirmation. A general store promotion does not make a product final sale unless the product is specifically marked that way.  Final sale does not remove the manufacturing warranty. A defective outlet tent follows the tent warranty assessment process, including proof of purchase and photos. Cosmetic wear that was disclosed on the outlet listing is not a new manufacturing defect. Support must distinguish a disclosed condition from a fault that arose later.  If the delivered outlet product does not match the listing, report that problem within 14 calendar days after delivery. Keep photographs of the product and the packaging. The support team checks the listing and the received item before arranging a remedy. The 14-day mismatch report window is a separate route from the manufacturing warranty.",
+          "rank": 2,
+          "score": 0.7495649456977844
+        },
+        {
+          "id": "7a1120acbd6d8a9f",
+          "source": "16-order-changes",
+          "text": "Changing or cancelling an order  Customers can request cancellation or an address correction during the first 30 minutes after placing an order, provided warehouse processing has not started. Both conditions must hold. A request sent within 30 minutes can still be too late if processing has already begun. After that point, support cannot guarantee an edit and the customer may need to use the return process after delivery.  Adding products to an existing order is not supported. Place a new order for additional products. Two orders do not automatically share a shipping charge even when they go to the same address. If an address correction would move the shipment outside the product's eligible delivery area, support must check the product restrictions before accepting it.  This page describes the policy window. It does not show the warehouse status of any specific order. A confirmation email proves the order was accepted, not that it is still editable. Do not tell a customer their order has been cancelled until the order system confirms cancellation.",
+          "rank": 3,
+          "score": 0.6688722372055054
+        },
+        {
+          "id": "5a086d73e44b9c4a",
+          "source": "07-gift-returns",
+          "text": "Returning a gift  A recipient with a gift receipt can return eligible unused gear within 45 calendar days after delivery. The recipient receives store credit equal to the item's paid price. The recipient does not receive a refund to their own bank card. If the purchaser requests the return through their original order, the normal purchaser-refund rules apply instead.  A gift receipt hides the price on the paper presented to the recipient, but the order system still records the actual amount paid. Discounts are included in that amount. For a product bought as part of a discounted bundle, use the bundle-allocation policy to calculate the paid amount for that product. Do not substitute the current shelf price, the pre-discount price, or the price of a replacement item.  Gift returns still require an approved request and must meet the condition requirements. The gift window does not make a used jacket returnable. The return-label fee follows the ordinary return-label policy.",
+          "rank": 4,
+          "score": 0.6657754182815552
+        },
+        {
+          "id": "50a77dee2958be7d",
+          "source": "01-standard-returns",
+          "text": "A return request is not itself a refund. Customers receive a receipt after the inspection is complete. Original outbound delivery charges are not refunded for a change of mind. The return-label policy explains who pays for sending an item back. Do not send an item to the warehouse without an approved return request.",
+          "rank": 5,
+          "score": 0.6604045629501343
+        },
+        {
+          "id": "4d1f98acd0aa38e7",
+          "source": "10-outlet-products",
+          "text": "The 14-day mismatch report window is a separate route from the manufacturing warranty. Do not describe it as a 14-day change-of-mind return right. Stock for a replacement outlet product is not guaranteed.",
+          "rank": 6,
+          "score": 0.6589183211326599
+        },
+        {
+          "id": "a2d0827817210d11",
+          "source": "21-price-adjustments",
+          "text": "A customer asking for the exact difference on a particular order needs those live values. An ordinary exchange for the same model in a different size follows the exchange-price rule instead. Do not treat a size exchange as a second price adjustment.",
+          "rank": 7,
+          "score": 0.6559134721755981
+        },
+        {
+          "id": "157894c3fbda0208",
+          "source": "08-size-exchanges",
+          "text": "Exchanging a size or color  For a domestic order, an eligible unused product can be exchanged for a different size or color of the same model. The exchange keeps the original paid item price even if the current listing price changed. The replacement must be available when the request is approved. Exchanges into a different model are handled as a return followed by a new purchase at the new model's price.  The warehouse holds an approved replacement for seven calendar days. The customer must hand the returning parcel to the carrier within that period. The hold does not last until the parcel physically arrives at the warehouse. If the dispatch deadline passes, the reservation is released and availability must be checked again. Support cannot promise stock from a catalog description.  Exchanges use the same unused-condition and eligibility-window rules as standard returns. The store does not offer direct international exchanges. An international customer may use the return route if eligible and place a separate new order.",
+          "rank": 8,
+          "score": 0.6444650292396545
+        },
+        {
+          "id": "8b6e727fe3dc0e09",
+          "source": "15-international-orders",
+          "text": "Import taxes are not refunded by the store. Direct size or color exchanges are unavailable for international orders; return an eligible item and place a new order instead. Availability, exchange rates, and customs clearance times for a particular order are not maintained in these policy pages.",
+          "rank": 9,
+          "score": 0.6435263156890869
+        },
+        {
+          "id": "ccb0a1b0e26c549e",
+          "source": "02-boot-fit-trial",
+          "text": "This trial changes the eligibility window and acceptable wear for hiking boots only. It does not change the price of a return label. Read the return-label policy for the applicable fee and the membership policy for any shipping benefits. The fit trial does not promise a particular replacement model will be in stock.",
+          "rank": 10,
+          "score": 0.637959361076355
+        },
+        {
+          "id": "50913a6804b7a320",
+          "source": "01-standard-returns",
+          "text": "Standard returns for unused gear  The online store accepts ordinary unused gear within 30 calendar days after delivery. Customers must open a return request in the order portal before that window ends. After approval, they have seven calendar days to hand the parcel to the carrier. The request date determines whether the return was opened on time; the carrier acceptance date determines whether the shipping deadline was met.  Keep the original tags attached and include all parts. Trying a jacket on indoors does not count as using it. Washing a garment, taking a sleeping bag camping, or removing a safety seal does count as use. Used products cannot enter the ordinary change-of-mind return process. Hiking boots have a separate fit-trial policy, and damaged products have a separate warranty process. An exception for one product category does not extend the window for other products in the same order.  The warehouse checks the condition before approving the refund. A return request is not itself a refund.",
+          "rank": 11,
+          "score": 0.6368626058101654
+        },
+        {
+          "id": "60dae024f2adbf1a",
+          "source": "19-store-pickup",
+          "text": "Product return and warranty windows start from the recorded collection date for a pickup order. Other eligibility conditions, including final-sale markings and product-specific trials, still apply.",
+          "rank": 12,
+          "score": 0.6339857578277588
+        }
+      ],
+      "api_seconds": 0.45696321400009765
+    },
+    "p08": {
+      "query": "I wore my new jacket on a camping trip. Does the hiking-boot fit trial let me return the jacket after use?",
+      "requested_k": 12,
+      "chunks": [
+        {
+          "id": "50e7bad4191dbbb9",
+          "source": "02-boot-fit-trial",
+          "text": "Hiking boot fit trial  Hiking boots bought from the online store have a 60-calendar-day fit trial, measured from delivery. This includes boots worn on ordinary outdoor walks. The purpose is to let customers discover pressure points that may not appear during an indoor fitting. The customer can claim one fit-trial return in any rolling 12-month period. Record the previous claim date before approving another pair.  The trial excludes damage from misuse, missing parts, and boots altered by a third party. Normal trail dust and wear from walking do not by themselves disqualify a pair. Remove loose dirt before packing. The boots must be returned as a complete pair. Boots that satisfy the trial receive a refund of the item price paid; original delivery charges remain nonrefundable.  Start the request in the normal returns portal and select the fit-trial reason. The standard seven-day dispatch deadline after approval still applies. This trial changes the eligibility window and acceptable wear for hiking boots only.",
+          "rank": 1,
+          "score": 0.8301718831062317
+        },
+        {
+          "id": "ccb0a1b0e26c549e",
+          "source": "02-boot-fit-trial",
+          "text": "This trial changes the eligibility window and acceptable wear for hiking boots only. It does not change the price of a return label. Read the return-label policy for the applicable fee and the membership policy for any shipping benefits. The fit trial does not promise a particular replacement model will be in stock.",
+          "rank": 2,
+          "score": 0.7885971069335938
+        },
+        {
+          "id": "50913a6804b7a320",
+          "source": "01-standard-returns",
+          "text": "Standard returns for unused gear  The online store accepts ordinary unused gear within 30 calendar days after delivery. Customers must open a return request in the order portal before that window ends. After approval, they have seven calendar days to hand the parcel to the carrier. The request date determines whether the return was opened on time; the carrier acceptance date determines whether the shipping deadline was met.  Keep the original tags attached and include all parts. Trying a jacket on indoors does not count as using it. Washing a garment, taking a sleeping bag camping, or removing a safety seal does count as use. Used products cannot enter the ordinary change-of-mind return process. Hiking boots have a separate fit-trial policy, and damaged products have a separate warranty process. An exception for one product category does not extend the window for other products in the same order.  The warehouse checks the condition before approving the refund. A return request is not itself a refund.",
+          "rank": 3,
+          "score": 0.7547289431095123
+        },
+        {
+          "id": "5a086d73e44b9c4a",
+          "source": "07-gift-returns",
+          "text": "Returning a gift  A recipient with a gift receipt can return eligible unused gear within 45 calendar days after delivery. The recipient receives store credit equal to the item's paid price. The recipient does not receive a refund to their own bank card. If the purchaser requests the return through their original order, the normal purchaser-refund rules apply instead.  A gift receipt hides the price on the paper presented to the recipient, but the order system still records the actual amount paid. Discounts are included in that amount. For a product bought as part of a discounted bundle, use the bundle-allocation policy to calculate the paid amount for that product. Do not substitute the current shelf price, the pre-discount price, or the price of a replacement item.  Gift returns still require an approved request and must meet the condition requirements. The gift window does not make a used jacket returnable. The return-label fee follows the ordinary return-label policy.",
+          "rank": 4,
+          "score": 0.6654302775859833
+        },
+        {
+          "id": "f1993cace94ca375",
+          "source": "10-outlet-products",
+          "text": "Outlet and final-sale products  Products marked final sale in the outlet cannot be returned merely because the customer changes their mind, chooses the wrong color, or finds a lower price later. The final-sale marking appears on the product page and the order confirmation. A general store promotion does not make a product final sale unless the product is specifically marked that way.  Final sale does not remove the manufacturing warranty. A defective outlet tent follows the tent warranty assessment process, including proof of purchase and photos. Cosmetic wear that was disclosed on the outlet listing is not a new manufacturing defect. Support must distinguish a disclosed condition from a fault that arose later.  If the delivered outlet product does not match the listing, report that problem within 14 calendar days after delivery. Keep photographs of the product and the packaging. The support team checks the listing and the received item before arranging a remedy. The 14-day mismatch report window is a separate route from the manufacturing warranty.",
+          "rank": 5,
+          "score": 0.647131085395813
+        },
+        {
+          "id": "4d1f98acd0aa38e7",
+          "source": "10-outlet-products",
+          "text": "The 14-day mismatch report window is a separate route from the manufacturing warranty. Do not describe it as a 14-day change-of-mind return right. Stock for a replacement outlet product is not guaranteed.",
+          "rank": 6,
+          "score": 0.6327986121177673
+        },
+        {
+          "id": "ef9ca50a9737345a",
+          "source": "13-return-labels",
+          "text": "Who pays for a return label  For ordinary domestic change-of-mind returns, the store offers a ground label for USD 7 per parcel. If the customer uses it, USD 7 is deducted from the refund or store credit. A customer may instead arrange and pay for their own suitable carrier. A store label covers one parcel; two parcels require two labels. Membership does not waive this fee.  An approved wrong-item shipment or manufacturing-defect claim receives a prepaid label without the USD 7 deduction. The support team must approve that reason first. A customer selecting a defect reason in the portal is not sufficient proof that the claim has been approved. The hiking boot fit trial is a fit return, so the normal USD 7 label fee applies unless the customer supplies their own shipping.  Use suitable packaging and keep the carrier acceptance receipt. Items containing an undamaged lithium battery must use the eligible ground service.",
+          "rank": 7,
+          "score": 0.6274663209915161
+        },
+        {
+          "id": "157894c3fbda0208",
+          "source": "08-size-exchanges",
+          "text": "Exchanging a size or color  For a domestic order, an eligible unused product can be exchanged for a different size or color of the same model. The exchange keeps the original paid item price even if the current listing price changed. The replacement must be available when the request is approved. Exchanges into a different model are handled as a return followed by a new purchase at the new model's price.  The warehouse holds an approved replacement for seven calendar days. The customer must hand the returning parcel to the carrier within that period. The hold does not last until the parcel physically arrives at the warehouse. If the dispatch deadline passes, the reservation is released and availability must be checked again. Support cannot promise stock from a catalog description.  Exchanges use the same unused-condition and eligibility-window rules as standard returns. The store does not offer direct international exchanges. An international customer may use the return route if eligible and place a separate new order.",
+          "rank": 8,
+          "score": 0.6152898371219635
+        },
+        {
+          "id": "de37c58facfdab69",
+          "source": "03-tent-warranty",
+          "text": "Tent manufacturing warranty  Tents have a 24-month warranty for manufacturing defects, beginning on the purchase date. A stitching seam that separates during normal use can qualify. The customer must provide proof of purchase and clear photos so the repair team can assess the failure. The warranty team chooses repair or replacement after assessment; support cannot promise a cash refund before that decision.  Damage from animals, sharp objects, storms beyond the tent's rating, ordinary fabric wear, or incorrect storage is outside this warranty. Accidental damage can still be sent for a paid repair assessment. A quotation must be approved before paid repair work starts. The repair-price guide lists the fixed fees that are currently published; some repairs require an individual quote.  Customers should dry a tent before packing it for inspection. Do not include fuel canisters, batteries, food, or personal belongings. An approved manufacturing-defect claim receives a prepaid ground label.",
+          "rank": 9,
+          "score": 0.6087400019168854
+        },
+        {
+          "id": "c85517983b3480bd",
+          "source": "09-discounted-bundles",
+          "text": "Refund allocation for discounted bundles  When a bundle has one discounted purchase price, allocate that price across its items in proportion to their individual prices at the time of purchase. Refunding one eligible item returns that allocated paid amount. It does not return the item's current price or its undiscounted original price. Retaining other items does not by itself cancel the allocation.  The camping starter kit contains a lantern listed at USD 30, a stove listed at USD 50, and a carry case listed at USD 20. Their individual prices total USD 100. When the customer paid USD 80 for the kit, the allocated paid amounts are USD 24 for the lantern, USD 40 for the stove, and USD 16 for the case. These amounts total the USD 80 actually paid.  The allocation determines money, not return eligibility. Check the condition, return window, gift status, and transport restrictions separately.",
+          "rank": 10,
+          "score": 0.6058797240257263
+        },
+        {
+          "id": "8b6e727fe3dc0e09",
+          "source": "15-international-orders",
+          "text": "Import taxes are not refunded by the store. Direct size or color exchanges are unavailable for international orders; return an eligible item and place a new order instead. Availability, exchange rates, and customs clearance times for a particular order are not maintained in these policy pages.",
+          "rank": 11,
+          "score": 0.604136735200882
+        },
+        {
+          "id": "50a77dee2958be7d",
+          "source": "01-standard-returns",
+          "text": "A return request is not itself a refund. Customers receive a receipt after the inspection is complete. Original outbound delivery charges are not refunded for a change of mind. The return-label policy explains who pays for sending an item back. Do not send an item to the warehouse without an approved return request.",
+          "rank": 12,
+          "score": 0.6029394865036011
+        }
+      ],
+      "api_seconds": 0.454948620000323
+    }
+  },
+  "depth_scores": [
+    {
+      "k": 3,
+      "complete_cases": 5,
+      "fact_hits": 11,
+      "cases": [
+        {
+          "case_id": "p01",
+          "fact_hits": [
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p02",
+          "fact_hits": [
+            true,
+            false,
+            false
+          ],
+          "all_facts": false
+        },
+        {
+          "case_id": "p03",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p04",
+          "fact_hits": [
+            false,
+            false
+          ],
+          "all_facts": false
+        },
+        {
+          "case_id": "p05",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p06",
+          "fact_hits": [
+            false,
+            true
+          ],
+          "all_facts": false
+        },
+        {
+          "case_id": "p07",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p08",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        }
+      ]
+    },
+    {
+      "k": 6,
+      "complete_cases": 7,
+      "fact_hits": 15,
+      "cases": [
+        {
+          "case_id": "p01",
+          "fact_hits": [
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p02",
+          "fact_hits": [
+            true,
+            true,
+            false
+          ],
+          "all_facts": false
+        },
+        {
+          "case_id": "p03",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p04",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p05",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p06",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p07",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p08",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        }
+      ]
+    },
+    {
+      "k": 9,
+      "complete_cases": 8,
+      "fact_hits": 16,
+      "cases": [
+        {
+          "case_id": "p01",
+          "fact_hits": [
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p02",
+          "fact_hits": [
+            true,
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p03",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p04",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p05",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p06",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p07",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p08",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        }
+      ]
+    },
+    {
+      "k": 12,
+      "complete_cases": 8,
+      "fact_hits": 16,
+      "cases": [
+        {
+          "case_id": "p01",
+          "fact_hits": [
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p02",
+          "fact_hits": [
+            true,
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p03",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p04",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p05",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p06",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p07",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        },
+        {
+          "case_id": "p08",
+          "fact_hits": [
+            true,
+            true
+          ],
+          "all_facts": true
+        }
+      ]
+    }
+  ],
+  "selected_k": 9,
+  "selected_before_evaluation": true
+}

@@ -1,0 +1,148 @@
+{
+  "variants": {
+    "initial_three": {
+      "attempts": 24,
+      "passed": 21,
+      "estimated_model_usd": 0.0278242,
+      "median_api_seconds": 2.454959078000229,
+      "input_tokens": 19629,
+      "output_tokens": 2561,
+      "model_calls": 24,
+      "searches": 24,
+      "full_phrase_coverage": 20,
+      "by_kind": {
+        "direct": {
+          "attempts": 8,
+          "passed": 8
+        },
+        "combined": {
+          "attempts": 8,
+          "passed": 5
+        },
+        "missing": {
+          "attempts": 8,
+          "passed": 8
+        }
+      }
+    },
+    "reconsider": {
+      "attempts": 24,
+      "passed": 21,
+      "estimated_model_usd": 0.0590302,
+      "median_api_seconds": 5.141381555999942,
+      "input_tokens": 42851,
+      "output_tokens": 5056,
+      "model_calls": 48,
+      "searches": 24,
+      "full_phrase_coverage": 20,
+      "by_kind": {
+        "direct": {
+          "attempts": 8,
+          "passed": 8
+        },
+        "combined": {
+          "attempts": 8,
+          "passed": 5
+        },
+        "missing": {
+          "attempts": 8,
+          "passed": 8
+        }
+      }
+    },
+    "fixed": {
+      "attempts": 24,
+      "passed": 22,
+      "estimated_model_usd": 0.0540366,
+      "median_api_seconds": 2.5755179475004297,
+      "input_tokens": 45035,
+      "output_tokens": 2813,
+      "model_calls": 24,
+      "searches": 24,
+      "full_phrase_coverage": 22,
+      "by_kind": {
+        "direct": {
+          "attempts": 8,
+          "passed": 8
+        },
+        "combined": {
+          "attempts": 8,
+          "passed": 6
+        },
+        "missing": {
+          "attempts": 8,
+          "passed": 8
+        }
+      }
+    },
+    "adaptive": {
+      "attempts": 24,
+      "passed": 20,
+      "estimated_model_usd": 0.06623319999999999,
+      "median_api_seconds": 4.423071413998969,
+      "input_tokens": 55542,
+      "output_tokens": 3341,
+      "model_calls": 45,
+      "searches": 49,
+      "full_phrase_coverage": 22,
+      "by_kind": {
+        "direct": {
+          "attempts": 8,
+          "passed": 8
+        },
+        "combined": {
+          "attempts": 8,
+          "passed": 5
+        },
+        "missing": {
+          "attempts": 8,
+          "passed": 7
+        }
+      }
+    },
+    "all_documents": {
+      "attempts": 24,
+      "passed": 22,
+      "estimated_model_usd": 0.1576712,
+      "median_api_seconds": 2.538780877499903,
+      "input_tokens": 149604,
+      "output_tokens": 2521,
+      "model_calls": 24,
+      "searches": 0,
+      "full_phrase_coverage": 24,
+      "by_kind": {
+        "direct": {
+          "attempts": 8,
+          "passed": 8
+        },
+        "combined": {
+          "attempts": 8,
+          "passed": 6
+        },
+        "missing": {
+          "attempts": 8,
+          "passed": 8
+        }
+      }
+    }
+  },
+  "scored_outputs": 120,
+  "evaluation_traces": 96,
+  "evaluation_model_usd": 0.33697119999999997,
+  "evaluation_model_calls": 141,
+  "pilot_model_usd": 0.011558,
+  "baseline_shared_with_reconsideration": true,
+  "scorer": "AI-assisted review",
+  "fresh_adaptive_final_cases": [
+    "d05",
+    "m01",
+    "m02",
+    "m03",
+    "m06",
+    "u02",
+    "u03",
+    "u07",
+    "u08"
+  ],
+  "reconsider_answer_text_changes": 20
+}

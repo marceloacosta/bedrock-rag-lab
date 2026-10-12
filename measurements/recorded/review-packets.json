@@ -1,0 +1,2756 @@
+[
+  {
+    "packet_id": "3ae0136a2f",
+    "case_id": "u02",
+    "question": "On what date does the store credit I get from a gift return expire?",
+    "source_sha256": "0dc066d7bde3d45716b2ad41b088c767fe9d53740557ad82185e169dbac8976b",
+    "answer": {
+      "answer": "The expiration date for store credit issued from a gift return cannot be established from the supplied evidence. Evidence ID 6674a2b72daa2f79 explicitly states that the gift returns article does not describe the expiration date of store credit.",
+      "abstain": true,
+      "citations": [
+        "6674a2b72daa2f79"
+      ]
+    },
+    "cited_sources": [
+      "07-gift-returns"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "fcaaacc00f",
+    "case_id": "d03",
+    "question": "Can you send a rechargeable headlamp to Hawaii if I pay extra for fast shipping?",
+    "source_sha256": "6c4fa2fe736d22728eca662e3ac06b84abbcf89780bb94911e93240236d8275c",
+    "answer": {
+      "answer": "No. Rechargeable headlamps contain lithium batteries and can only be shipped by ground service within the contiguous United States. They cannot be sent to Alaska or Hawaii, and paying extra for express shipping does not override this restriction.",
+      "abstain": false,
+      "citations": [
+        "d17659c59af6700e"
+      ]
+    },
+    "cited_sources": [
+      "04-lithium-delivery"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "0a473304bc",
+    "case_id": "d06",
+    "question": "I need a bigger size of the same jacket model for a domestic order. The current price went up. What price applies, and how long is an approved replacement held?",
+    "source_sha256": "0df76919711569324e26403b8ecf366046488b2b0cf3e46a25e86aa4151691bd",
+    "answer": {
+      "answer": "For a domestic size exchange of the same model, the original paid item price applies, even if the current listing price has changed. The warehouse holds an approved replacement for seven calendar days.",
+      "abstain": false,
+      "citations": [
+        "157894c3fbda0208"
+      ]
+    },
+    "cited_sources": [
+      "08-size-exchanges"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "c754afc00f",
+    "case_id": "u07",
+    "question": "What exact storage temperature does the rechargeable lantern manufacturer specify?",
+    "source_sha256": "2e28fe17393e7cd35e58150c76f3436ec4d43a7ca6b16f8e0b4e20057364aff3",
+    "answer": {
+      "answer": "The supplied evidence does not specify the exact storage temperature for rechargeable lanterns. The product-care article states that rechargeable equipment should follow its manufacturer's charging and storage instructions and that the article does not supply a temperature specification for every model. It advises referring product-specific questions to the relevant manual or product team when the required detail is absent.",
+      "abstain": true,
+      "citations": [
+        "56dc9667cf73cb4c",
+        "28a9fda631d80848"
+      ]
+    },
+    "cited_sources": [
+      "24-product-care"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "1cd3d4c3ed",
+    "case_id": "d01",
+    "question": "I bought an unused jacket online and it arrived 28 days ago. Can I still start a return, and how soon must I send it after approval?",
+    "source_sha256": "627b4efdcf6cf0c4112fe0fb3287dd2f48fb5fb9a265a67abbfdcc1b627775a5",
+    "answer": {
+      "answer": "Yes, you can still start a return. The online store accepts ordinary unused gear within 30 calendar days after delivery, so you are within the window at 28 days. You must open a return request in the order portal before that 30-day window ends. After approval, you have seven calendar days to hand the parcel to the carrier.",
+      "abstain": false,
+      "citations": [
+        "50913a6804b7a320"
+      ]
+    },
+    "cited_sources": [
+      "01-standard-returns"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "1c84c6ffc1",
+    "case_id": "d03",
+    "question": "Can you send a rechargeable headlamp to Hawaii if I pay extra for fast shipping?",
+    "source_sha256": "d88e593ddd4d87f6b733ecdc55b6be12b6e718b3ab36004f4f88a9afc6bdc9b9",
+    "answer": {
+      "answer": "No, the rechargeable headlamp cannot be sent to Hawaii, even if you pay extra for fast shipping. Products containing lithium batteries, including rechargeable headlamps, travel by ground service within the contiguous United States and cannot be sent to Alaska or Hawaii. Selecting express shipping at checkout does not override this restriction.",
+      "abstain": false,
+      "citations": [
+        "d17659c59af6700e"
+      ]
+    },
+    "cited_sources": [
+      "04-lithium-delivery"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "1112f5995a",
+    "case_id": "d03",
+    "question": "Can you send a rechargeable headlamp to Hawaii if I pay extra for fast shipping?",
+    "source_sha256": "d88e593ddd4d87f6b733ecdc55b6be12b6e718b3ab36004f4f88a9afc6bdc9b9",
+    "answer": {
+      "answer": "No, the rechargeable headlamp cannot be sent to Hawaii. Products containing lithium batteries, including rechargeable headlamps, cannot be sent to Alaska or Hawaii. Paying extra for fast shipping does not override this restriction, as these items must travel by ground service within the contiguous United States.",
+      "abstain": false,
+      "citations": [
+        "d17659c59af6700e"
+      ]
+    },
+    "cited_sources": [
+      "04-lithium-delivery"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "e6edabee3d",
+    "case_id": "d07",
+    "question": "The warehouse received my ordinary return. What is the longest published sequence until the bank-card credit appears, assuming normal approval?",
+    "source_sha256": "78efe772efca73a08bdb11d437f55a319b89a28c42b0b544845898a7a5ef56de",
+    "answer": {
+      "answer": "The longest published sequence is 12 business days after warehouse receipt. Calculation: 5 business days (inspection) + 2 business days (submission) + 5 business days (card provider processing).",
+      "abstain": false,
+      "citations": [
+        "cd4b23e3bc54afea"
+      ]
+    },
+    "cited_sources": [
+      "14-refund-timing"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "3e680ca59f",
+    "case_id": "u07",
+    "question": "What exact storage temperature does the rechargeable lantern manufacturer specify?",
+    "source_sha256": "5318221beab07f92d78b0c4bd42dc231249e3d9e9c1214135b924f0158619524",
+    "answer": {
+      "answer": "The supplied documents do not specify the exact storage temperature for the rechargeable lantern. Evidence states that it 'does not supply a temperature specification for every model' and advises referring 'product-specific questions to the relevant manual or product team when the required detail is absent.'",
+      "abstain": true,
+      "citations": [
+        "28a9fda631d80848",
+        "56dc9667cf73cb4c"
+      ]
+    },
+    "cited_sources": [
+      "24-product-care"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "5012b0e09a",
+    "case_id": "m03",
+    "question": "I collected hiking boots from a store 50 days ago, wore them on normal walks, and have never claimed the fit trial. The boots cost 100 dollars. Can I return them now, when did the trial clock start, and what refund remains if I use one store label?",
+    "source_sha256": "235319bd6112d7a1e9976b4883c7392ba1fafec127ccb54b723219c2224384d6",
+    "answer": {
+      "answer": "Yes, you can return the boots now. The 60-calendar-day fit trial is measured from delivery, and you are at 50 days with normal walk wear, which is permitted. You have not claimed a fit trial in the past 12 months, so you are eligible. The refund is 100 dollars (item price). Original delivery charges are non-refundable. The specific fee for the store label cannot be established from the supplied evidence, so the final refund total cannot be calculated.",
+      "abstain": true,
+      "citations": [
+        "50e7bad4191dbbb9",
+        "ccb0a1b0e26c549e"
+      ]
+    },
+    "cited_sources": [
+      "02-boot-fit-trial"
+    ],
+    "cited_phrase_hits": [
+      false,
+      true,
+      false
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "fcc1f51477",
+    "case_id": "d02",
+    "question": "These hiking boots hurt after outdoor walks. Delivery was 50 days ago, they only have normal trail dust, and I have never used the fit trial. Are they still eligible?",
+    "source_sha256": "ecffa1fba85c125fc11b4cdbc88198ffee4f1128d067f9d445da240579d02f5f",
+    "answer": {
+      "answer": "Yes, the boots are eligible for the fit trial. The policy provides a 60-calendar-day window from delivery, and 50 days is within that limit. Normal trail dust does not disqualify the boots, and boots worn on ordinary outdoor walks are included. You have also confirmed you have not used your one allowed fit-trial return in the past 12 months.",
+      "abstain": false,
+      "citations": [
+        "50e7bad4191dbbb9"
+      ]
+    },
+    "cited_sources": [
+      "02-boot-fit-trial"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "adf2bc75b7",
+    "case_id": "d08",
+    "question": "My rechargeable lantern battery has swollen. Should I use the usual ground return label to send it back?",
+    "source_sha256": "b8ff4f0558181b7a5d2f16322f850967a0d4f08ca94733ee80ea2b7671e25c65",
+    "answer": {
+      "answer": "No. Do not use the regular ground return label for a swollen rechargeable battery. Stop using or charging the device, and contact the product safety team via the support form (battery-safety category) with the model, purchase reference, damage description, and photos when safe. The team will provide specific handling instructions; do not ship it until you receive them.",
+      "abstain": false,
+      "citations": [
+        "bbde1a1550ed6787",
+        "219a0eb840da271f",
+        "feafb2b9c386c0ab"
+      ]
+    },
+    "cited_sources": [
+      "04-lithium-delivery",
+      "13-return-labels",
+      "17-damaged-batteries"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "1d143d420e",
+    "case_id": "m03",
+    "question": "I collected hiking boots from a store 50 days ago, wore them on normal walks, and have never claimed the fit trial. The boots cost 100 dollars. Can I return them now, when did the trial clock start, and what refund remains if I use one store label?",
+    "source_sha256": "9f57679eb53392b62d6d22847347f90725f7ed3a7eea8fb0ef5c5c5df51ae562",
+    "answer": {
+      "answer": "Yes, you can return the boots now. The fit-trial window is 60 calendar days from delivery, and you are at 50 days with normal walking wear, which is permitted. The trial clock started on the delivery date. For the refund: the item price is USD 100.00, original delivery charges are non-refundable, and using one store label deducts USD 7.00. The remaining refund is USD 100.00 - USD 7.00 = USD 93.00. You must still open a return request in the portal and dispatch the boots within seven calendar days after approval.",
+      "abstain": false,
+      "citations": [
+        "02-boot-fit-trial",
+        "13-return-labels"
+      ]
+    },
+    "cited_sources": [
+      "02-boot-fit-trial",
+      "13-return-labels"
+    ],
+    "cited_phrase_hits": [
+      false,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "e0b276f131",
+    "case_id": "u06",
+    "question": "The carrier says my return was delivered yesterday. Has my refund already been approved and sent?",
+    "source_sha256": "9e44ef9338d2c2a4597aeef254fc96f317c0a2c3d6216df45c7eba244a7928aa",
+    "answer": {
+      "answer": "I cannot confirm whether your refund has been approved or sent. A carrier delivery notification is not the same as a completed inspection. The returns team normally inspects an ordinary parcel within five business days after warehouse receipt. Once approved, the store submits the refund within two business days, and your bank-card provider may take another three to five business days to show the credit. Since your return was delivered yesterday, inspection likely has not occurred yet. This page does not identify whether a particular return has been received, approved, or refunded—for that, support needs the live return record.",
+      "abstain": true,
+      "citations": [
+        "cd4b23e3bc54afea",
+        "0d9d1d3b7aa5ea13"
+      ]
+    },
+    "cited_sources": [
+      "14-refund-timing"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "d8c446d8cd",
+    "case_id": "d03",
+    "question": "Can you send a rechargeable headlamp to Hawaii if I pay extra for fast shipping?",
+    "source_sha256": "2c6fd7fb4bf8a9cb9104d893e7a87eccc3f00adbfaffdf13d3b36bcecd29ad03",
+    "answer": {
+      "answer": "No, the rechargeable headlamp cannot be sent to Hawaii. Products containing lithium batteries, including headlamps, travel by ground service within the contiguous United States and cannot be sent to Alaska or Hawaii. Paying extra for express shipping does not override this restriction.",
+      "abstain": false,
+      "citations": [
+        "d17659c59af6700e"
+      ]
+    },
+    "cited_sources": [
+      "04-lithium-delivery"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "fa39dd0a6c",
+    "case_id": "m04",
+    "question": "I bought a final-sale outlet tent 18 months ago. A stitching seam has now separated in normal use; this was not a disclosed outlet flaw. Does final sale prevent a warranty claim, what evidence do I need, and will an approved manufacturing-defect return cost me a label fee?",
+    "source_sha256": "586e49317eb415d1d9058570ab536219c010a673be238d8f1aeee5ef6560c208",
+    "answer": {
+      "answer": "Final sale does not prevent a warranty claim. A defective outlet tent follows the tent warranty assessment process, including proof of purchase and photos. Your separated stitching seam can qualify as a manufacturing defect under the 24-month tent warranty (you are within 18 months). Required evidence: proof of purchase and clear photos showing the failure. Cosmetic wear disclosed on the outlet listing is not a new defect, but your issue arose later and was not disclosed. An approved manufacturing-defect claim receives a prepaid ground label with no label fee deducted.",
+      "abstain": false,
+      "citations": [
+        "f1993cace94ca375",
+        "de37c58facfdab69",
+        "b62064cd43325a7f",
+        "ef9ca50a9737345a"
+      ]
+    },
+    "cited_sources": [
+      "03-tent-warranty",
+      "10-outlet-products",
+      "13-return-labels"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "6d080384bb",
+    "case_id": "m01",
+    "question": "I am an active member returning hiking boots after 45 days of ordinary outdoor walking. This is my first fit-trial claim. I paid 120 dollars for the boots plus 6 dollars outbound delivery and will use one store return label. Am I eligible and how much comes back?",
+    "source_sha256": "3019558984ee6ebcaa16bc52b2845fb6878ee87de51808388829283ca376ef46",
+    "answer": {
+      "answer": "Yes, you are eligible. The hiking boot fit trial allows 60 calendar days from delivery for boots worn on ordinary outdoor walks, and this is your first claim in a 12-month period. You will receive a refund of the item price. Original outbound delivery charges are nonrefundable, and the store return label deducts USD 7. Calculation: USD 120 (item price) - USD 6 (outbound delivery, nonrefundable) - USD 7 (return label fee) = USD 107 refund.",
+      "abstain": false,
+      "citations": [
+        "50e7bad4191dbbb9",
+        "ef9ca50a9737345a",
+        "50a77dee2958be7d"
+      ]
+    },
+    "cited_sources": [
+      "01-standard-returns",
+      "02-boot-fit-trial",
+      "13-return-labels"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "faca1019cf",
+    "case_id": "d04",
+    "question": "I do not have a membership. My ordinary US order was 80 dollars before a 10-dollar discount, before tax. Is standard shipping free?",
+    "source_sha256": "afe97bd9256486587f8e47c5dcbaa39a45fd0f210733697a8fab80da2a22b3e9",
+    "answer": {
+      "answer": "No, standard shipping is not free. The qualifying merchandise subtotal is calculated after discounts and before tax. Your subtotal is $70 ($80 minus the $10 discount). Since this is below the $75 threshold for non-members, standard delivery costs USD 6.",
+      "abstain": false,
+      "citations": [
+        "bb381b9b3123e92a"
+      ]
+    },
+    "cited_sources": [
+      "05-shipping-prices"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "81dc4b2a98",
+    "case_id": "m02",
+    "question": "I received the camping starter kit as a gift. It cost the buyer 80 dollars: the lantern was listed at 30, stove 50, and case 20. At day 40 I want to return only the unused lantern using one store label. I have the gift receipt. What amount do I get, and can it go to my bank card?",
+    "source_sha256": "c2270103f402a8b218618e97216ae5ed40c5e34f8027e288f0a902f95675816c",
+    "answer": {
+      "answer": "You receive USD 17. Calculation: The lantern's allocated paid amount is USD 24 (USD 80 bundle price × USD 30 lantern list price ÷ USD 100 total list price). Using one store label deducts USD 7, resulting in USD 24 - USD 7 = USD 17. The refund cannot go to your bank card; the gift policy issues store credit to the recipient. Whether the return is eligible at day 40 cannot be established from the supplied evidence.",
+      "abstain": false,
+      "citations": [
+        "c85517983b3480bd",
+        "ef9ca50a9737345a",
+        "505e5f951174a07e"
+      ]
+    },
+    "cited_sources": [
+      "09-discounted-bundles",
+      "13-return-labels"
+    ],
+    "cited_phrase_hits": [
+      false,
+      true,
+      true,
+      false
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "56f953992d",
+    "case_id": "u07",
+    "question": "What exact storage temperature does the rechargeable lantern manufacturer specify?",
+    "source_sha256": "c24da7392d463841a8df07c051688b2c1342b16f1f36d4f504b8d758d81bb1f4",
+    "answer": {
+      "answer": "The supplied evidence does not provide the exact storage temperature specified by the manufacturer. The product care article states that rechargeable equipment should follow its manufacturer's charging and storage instructions, but explicitly notes that it 'does not supply a temperature specification for every model' and advises referring product-specific questions to the relevant manual or product team.",
+      "abstain": true,
+      "citations": [
+        "56dc9667cf73cb4c",
+        "28a9fda631d80848"
+      ]
+    },
+    "cited_sources": [
+      "24-product-care"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "c064ad3d65",
+    "case_id": "d03",
+    "question": "Can you send a rechargeable headlamp to Hawaii if I pay extra for fast shipping?",
+    "source_sha256": "7c1a74e3c5047c7e2f2dd53d3dd3f2c4cfaa1a125806004c7c0acd3504e4b656",
+    "answer": {
+      "answer": "No, the rechargeable headlamp cannot be sent to Hawaii. Products containing lithium batteries, including rechargeable headlamps, cannot be sent to Alaska, Hawaii, or international destinations. This restriction applies even if you select express shipping or pay an extra surcharge; the policy explicitly states that a support agent must not promise that paying the express surcharge makes a battery shipment eligible for air transport.",
+      "abstain": false,
+      "citations": [
+        "04-lithium-delivery"
+      ]
+    },
+    "cited_sources": [
+      "04-lithium-delivery"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "395dc39237",
+    "case_id": "m06",
+    "question": "I am in Canada and bought the starter kit for 80 dollars; the stove's original share of the 100-dollar individual total was 50 dollars. At day 20 after delivery I want to return only the unused empty stove. What item refund applies, who arranges return shipping, and can I use the store's 7-dollar label?",
+    "source_sha256": "14a38dc8cba6adbed4a7e6a33d1e038302a8b49747b7d28b778908eec18bb217",
+    "answer": {
+      "answer": "The stove refund is USD 40, calculated as: USD 80 bundle price × (USD 50 stove list price ÷ USD 100 total list price). You arrange and pay for return shipping. You may use the store's USD 7 label; if used, USD 7 is deducted from your refund. The evidence does not establish the return window, so eligibility to return at day 20 cannot be confirmed.",
+      "abstain": false,
+      "citations": [
+        "c85517983b3480bd",
+        "ef9ca50a9737345a",
+        "6b695525041ba3fe"
+      ]
+    },
+    "cited_sources": [
+      "09-discounted-bundles",
+      "13-return-labels",
+      "23-fuel-products"
+    ],
+    "cited_phrase_hits": [
+      false,
+      true,
+      false,
+      false
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "1f14e89734",
+    "case_id": "u06",
+    "question": "The carrier says my return was delivered yesterday. Has my refund already been approved and sent?",
+    "source_sha256": "e84d44035595d1a87c7c6396b85ae276beacdb1f97d22cdfaf4d993483ddbeba",
+    "answer": {
+      "answer": "I cannot confirm whether your refund has been approved or sent. A carrier delivery notification is not the same event as a completed inspection. The returns team normally inspects an ordinary parcel within five business days after warehouse receipt. Once approved, the store submits the refund within two business days, and the bank-card provider may take another three to five business days to show the credit. The policy page does not identify whether a particular return has been received, approved, or refunded; for that, support needs the live return record.",
+      "abstain": true,
+      "citations": [
+        "cd4b23e3bc54afea",
+        "0d9d1d3b7aa5ea13"
+      ]
+    },
+    "cited_sources": [
+      "14-refund-timing"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "86b7430b7d",
+    "case_id": "u08",
+    "question": "What exact cash compensation will I receive because my lantern battery swelled?",
+    "source_sha256": "4fa7449f987a9edfc159a404c07f500ea5b24e5db3edafcb7ae8581a2130b0c1",
+    "answer": {
+      "answer": "The exact cash compensation cannot be determined. A swollen battery is a safety issue that must be reported to the product safety team rather than processed through ordinary returns. Whether the item qualifies for a warranty remedy is assessed separately from safe handling procedures. The evidence does not specify the compensation amount or form (cash refund vs. other remedy) for a damaged battery.",
+      "abstain": true,
+      "citations": [
+        "bbde1a1550ed6787"
+      ]
+    },
+    "cited_sources": [
+      "17-damaged-batteries"
+    ],
+    "cited_phrase_hits": [
+      false
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "032a245cc5",
+    "case_id": "d04",
+    "question": "I do not have a membership. My ordinary US order was 80 dollars before a 10-dollar discount, before tax. Is standard shipping free?",
+    "source_sha256": "afe97bd9256486587f8e47c5dcbaa39a45fd0f210733697a8fab80da2a22b3e9",
+    "answer": {
+      "answer": "No, standard shipping is not free. The qualifying merchandise subtotal is calculated after discounts and before tax. Your subtotal is $70 ($80 minus the $10 discount). Since this is below the $75 threshold for non-members, standard delivery costs USD 6.",
+      "abstain": false,
+      "citations": [
+        "bb381b9b3123e92a"
+      ]
+    },
+    "cited_sources": [
+      "05-shipping-prices"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "fcf3391880",
+    "case_id": "u05",
+    "question": "Are size 9 waterproof hiking boots available for pickup in my nearest store right now?",
+    "source_sha256": "4f300e06580127555aa9127a7fc900c3240cb2f0a09d979af3a58ede0b09fb60",
+    "answer": {
+      "answer": "I cannot confirm whether size 9 waterproof hiking boots are available for pickup in your nearest store right now. The online product catalog does not establish which store has an item today, and the published pickup process cannot answer a live stock question.",
+      "abstain": true,
+      "citations": [
+        "7a184c98ee5eec05",
+        "d942267f5252cb2c"
+      ]
+    },
+    "cited_sources": [
+      "11-oversize-delivery",
+      "19-store-pickup"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "f099b06b25",
+    "case_id": "m08",
+    "question": "I asked to cancel 20 minutes after ordering, but warehouse processing had already started. Does the 30-minute rule guarantee cancellation? If the order system later confirms cancellation before payment capture, is the pending card entry handled as a refund or as an authorization release, and what is the normal bank timing?",
+    "source_sha256": "2e22a73a342a0b0789e017cb09c0ceaa90809626e65d0eb86b42f8674f3bc7b5",
+    "answer": {
+      "answer": "No, the 30-minute rule does not guarantee cancellation. A request sent within 30 minutes can still be too late if warehouse processing has already begun, and both conditions must hold [7a1120acbd6d8a9f]. If the order system confirms cancellation before payment capture, the store releases the authorization rather than issuing a refund for a captured payment [e6cc30b70c422489]. The card provider typically removes a released authorization within three to seven business days, though the exact timing depends on the provider [e6cc30b70c422489].",
+      "abstain": false,
+      "citations": [
+        "7a1120acbd6d8a9f",
+        "e6cc30b70c422489"
+      ]
+    },
+    "cited_sources": [
+      "16-order-changes",
+      "22-payment-holds"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "611b9986a3",
+    "case_id": "m04",
+    "question": "I bought a final-sale outlet tent 18 months ago. A stitching seam has now separated in normal use; this was not a disclosed outlet flaw. Does final sale prevent a warranty claim, what evidence do I need, and will an approved manufacturing-defect return cost me a label fee?",
+    "source_sha256": "4d0806cadc6fba8a8c36e52fd0da05482f9419d2ce98356afe63ef2f326dac79",
+    "answer": {
+      "answer": "Final sale does not prevent a warranty claim; the manufacturing warranty remains in effect for outlet products. Because the tent is 18 months old, it falls within the 24-month warranty period for manufacturing defects, and a stitching seam separating during normal use can qualify. To submit a claim, you must provide proof of purchase and clear photos showing the failure so the repair team can assess it. If your manufacturing-defect claim is approved, you will receive a prepaid ground label and will not be charged a label fee.",
+      "abstain": false,
+      "citations": [
+        "f1993cace94ca375",
+        "de37c58facfdab69",
+        "ef9ca50a9737345a"
+      ]
+    },
+    "cited_sources": [
+      "03-tent-warranty",
+      "10-outlet-products",
+      "13-return-labels"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "d5641af7b1",
+    "case_id": "m03",
+    "question": "I collected hiking boots from a store 50 days ago, wore them on normal walks, and have never claimed the fit trial. The boots cost 100 dollars. Can I return them now, when did the trial clock start, and what refund remains if I use one store label?",
+    "source_sha256": "235319bd6112d7a1e9976b4883c7392ba1fafec127ccb54b723219c2224384d6",
+    "answer": {
+      "answer": "Yes, you can return the boots now. The 60-calendar-day fit trial is measured from delivery, and you are within that window at 50 days. Wearing boots on ordinary outdoor walks is permitted under the trial. The trial clock started on the delivery date. The remaining refund is 100 dollars (the item price). Original delivery charges are non-refundable. The monetary deduction for the store label cannot be established, as the evidence does not state the label fee.",
+      "abstain": true,
+      "citations": [
+        "50e7bad4191dbbb9",
+        "ccb0a1b0e26c549e"
+      ]
+    },
+    "cited_sources": [
+      "02-boot-fit-trial"
+    ],
+    "cited_phrase_hits": [
+      false,
+      true,
+      false
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "f3708093ce",
+    "case_id": "m07",
+    "question": "As an active member I want a kayak delivered to my contiguous-US address and two tent pole sections replaced through paid repair. The repair quote separately says shipping is 12 dollars. Does membership make kayak delivery or the repair free? What are the two totals?",
+    "source_sha256": "f24c1b5a23143452a991681d3e00e8015b9a5112abfcab1c327179c6f1039e19",
+    "answer": {
+      "answer": "Membership does not make either the kayak delivery or the repair free. Kayaks are oversize products, and membership does not waive oversize-delivery charges. For repairs, active members pay the same published repair prices; membership only provides priority queue handling. Totals: (1) Kayak delivery to a contiguous-US address: USD 35. (2) Two tent pole sections replaced plus shipping: USD 48 (USD 18 per section × 2 = USD 36 for repair work + USD 12 shipping = USD 48).",
+      "abstain": false,
+      "citations": [
+        "d83f7e2fda469565",
+        "625cd04d1852c6b0",
+        "051d68aa3903ec3b",
+        "bb381b9b3123e92a"
+      ]
+    },
+    "cited_sources": [
+      "05-shipping-prices",
+      "11-oversize-delivery",
+      "12-member-benefits",
+      "18-repair-prices"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "096b788d63",
+    "case_id": "m01",
+    "question": "I am an active member returning hiking boots after 45 days of ordinary outdoor walking. This is my first fit-trial claim. I paid 120 dollars for the boots plus 6 dollars outbound delivery and will use one store return label. Am I eligible and how much comes back?",
+    "source_sha256": "105d4e518b57bc160a4a9e67afe025e43eccdff2a09b41490a171bafe73392c2",
+    "answer": {
+      "answer": "Yes, you are eligible for the fit-trial return. Hiking boots have a 60-calendar-day fit trial that accepts ordinary outdoor wear, and you are within both the window and the one-claim limit. The refund is calculated as follows: Item price: $120.00; minus non-refundable outbound delivery: -$6.00; minus return-label fee: -$7.00. Total refund: $107.00.",
+      "abstain": false,
+      "citations": [
+        "02-boot-fit-trial",
+        "13-return-labels"
+      ]
+    },
+    "cited_sources": [
+      "02-boot-fit-trial",
+      "13-return-labels"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "291ac5a612",
+    "case_id": "m06",
+    "question": "I am in Canada and bought the starter kit for 80 dollars; the stove's original share of the 100-dollar individual total was 50 dollars. At day 20 after delivery I want to return only the unused empty stove. What item refund applies, who arranges return shipping, and can I use the store's 7-dollar label?",
+    "source_sha256": "14a38dc8cba6adbed4a7e6a33d1e038302a8b49747b7d28b778908eec18bb217",
+    "answer": {
+      "answer": "The stove refund is USD 40, based on the discounted-bundle allocation (USD 80 paid × USD 50 stove listing ÷ USD 100 total list price). For an ordinary change-of-mind return, you arrange and pay for shipping; you may use the store's label, which costs USD 7 and is deducted from your refund. The evidence does not establish the return window or your eligibility to return the stove at day 20.",
+      "abstain": false,
+      "citations": [
+        "c85517983b3480bd",
+        "ef9ca50a9737345a",
+        "6b695525041ba3fe"
+      ]
+    },
+    "cited_sources": [
+      "09-discounted-bundles",
+      "13-return-labels",
+      "23-fuel-products"
+    ],
+    "cited_phrase_hits": [
+      false,
+      true,
+      false,
+      false
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "ce641d004a",
+    "case_id": "m08",
+    "question": "I asked to cancel 20 minutes after ordering, but warehouse processing had already started. Does the 30-minute rule guarantee cancellation? If the order system later confirms cancellation before payment capture, is the pending card entry handled as a refund or as an authorization release, and what is the normal bank timing?",
+    "source_sha256": "419876043c641bb3b0ac5aa1bc3e8eea6c586af3bdb30af3f795f1b5db934308",
+    "answer": {
+      "answer": "No, the 30-minute rule does not guarantee cancellation. A request sent within 30 minutes can still be too late if warehouse processing has already begun, and both conditions must hold [7a1120acbd6d8a9f]. If the order system confirms cancellation before payment capture, the store releases the authorization rather than issuing a refund for a captured payment [e6cc30b70c422489]. The card provider typically removes a released authorization within three to seven business days, though the exact display time depends on the provider [e6cc30b70c422489].",
+      "abstain": false,
+      "citations": [
+        "7a1120acbd6d8a9f",
+        "e6cc30b70c422489"
+      ]
+    },
+    "cited_sources": [
+      "16-order-changes",
+      "22-payment-holds"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "0e0e04749a",
+    "case_id": "u08",
+    "question": "What exact cash compensation will I receive because my lantern battery swelled?",
+    "source_sha256": "b3c8737cfabdee3f5f48db3ab629193fc886301ebd2c98113d949d174f4dff1a",
+    "answer": {
+      "answer": "The supplied policies do not state the exact cash compensation amount for a swollen lantern battery. Evidence 17-damaged-batteries confirms that a swollen battery is a safety issue requiring you to contact the product safety team via the support form (choosing the battery-safety category) for specific instructions. It explicitly states this page does not publish compensation amounts. Whether the item qualifies for a warranty remedy is assessed separately from the safety process, and no warranty document in the evidence covers lanterns specifically.",
+      "abstain": true,
+      "citations": [
+        "17-damaged-batteries"
+      ]
+    },
+    "cited_sources": [
+      "17-damaged-batteries"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "bce1f40d93",
+    "case_id": "d07",
+    "question": "The warehouse received my ordinary return. What is the longest published sequence until the bank-card credit appears, assuming normal approval?",
+    "source_sha256": "75315f69bcde00f42cf771e9bf05796d868dab60d93cdb4b65d17271fd714727",
+    "answer": {
+      "answer": "The longest published sequence for a bank-card credit after warehouse receipt is up to 12 business days: 5 business days for inspection, 2 business days for refund submission, and 5 business days for the card provider to show the credit. Weekends and published holidays do not count as business days.",
+      "abstain": false,
+      "citations": [
+        "cd4b23e3bc54afea"
+      ]
+    },
+    "cited_sources": [
+      "14-refund-timing"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "1b8fc38876",
+    "case_id": "m06",
+    "question": "I am in Canada and bought the starter kit for 80 dollars; the stove's original share of the 100-dollar individual total was 50 dollars. At day 20 after delivery I want to return only the unused empty stove. What item refund applies, who arranges return shipping, and can I use the store's 7-dollar label?",
+    "source_sha256": "00e392d9b61ee79aa603be33ecb32d2395cfaf3229b54ff24ba1525505ad306a",
+    "answer": {
+      "answer": "The item refund is USD 40. Calculation: The starter kit was purchased for USD 80, and the stove's individual price was USD 50 out of a USD 100 total. The allocated paid amount for the stove is (50/100) × 80 = USD 40. Because you are in Canada, you are an international customer and must arrange and pay for return shipping yourself. You cannot use the store's USD 7 label, as it is for domestic returns only.",
+      "abstain": false,
+      "citations": [
+        "c85517983b3480bd",
+        "15-international-orders",
+        "6b695525041ba3fe"
+      ]
+    },
+    "cited_sources": [
+      "09-discounted-bundles",
+      "23-fuel-products"
+    ],
+    "cited_phrase_hits": [
+      false,
+      true,
+      false,
+      false
+    ],
+    "citations_exist": false
+  },
+  {
+    "packet_id": "8f575b29e2",
+    "case_id": "m07",
+    "question": "As an active member I want a kayak delivered to my contiguous-US address and two tent pole sections replaced through paid repair. The repair quote separately says shipping is 12 dollars. Does membership make kayak delivery or the repair free? What are the two totals?",
+    "source_sha256": "bc78dcebd92569a19e9f9e0e5e170de4010e4a0f8c175b9bd58d9dbcc4c0487e",
+    "answer": {
+      "answer": "Membership does not make kayak delivery or the repair free. Kayaks are oversize products, and the oversize-delivery fee is not waived by membership or the free-shipping threshold. For repairs, active members pay the same published prices and membership does not waive repair prices. The two totals are: Kayak delivery: USD 35. Tent pole repair: USD 48 (USD 18 per section × 2 sections = USD 36 for labor, plus USD 12 shipping stated in the quote).",
+      "abstain": false,
+      "citations": [
+        "d83f7e2fda469565",
+        "625cd04d1852c6b0",
+        "051d68aa3903ec3b",
+        "bb381b9b3123e92a"
+      ]
+    },
+    "cited_sources": [
+      "05-shipping-prices",
+      "11-oversize-delivery",
+      "12-member-benefits",
+      "18-repair-prices"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "8d8fb9b643",
+    "case_id": "m06",
+    "question": "I am in Canada and bought the starter kit for 80 dollars; the stove's original share of the 100-dollar individual total was 50 dollars. At day 20 after delivery I want to return only the unused empty stove. What item refund applies, who arranges return shipping, and can I use the store's 7-dollar label?",
+    "source_sha256": "e0f0343c12e2e196c84a305f323624b9135e6dd8e943f38a5af00ba7f10a6a5f",
+    "answer": {
+      "answer": "Item refund: The stove's refund is USD 40. The stove was listed at USD 50 and the kit's individual prices totaled USD 100. You paid USD 80, so the stove's allocated paid amount is (50/100) × 80 = USD 40. Return shipping: You arrange and pay for return shipping. Store label: No, the USD 7 store label is for ordinary domestic returns; as a customer in Canada, you are an international customer and must use an eligible return route and may arrange your own suitable carrier.",
+      "abstain": false,
+      "citations": [
+        "c85517983b3480bd",
+        "f124982f43d0503a",
+        "ef9ca50a9737345a"
+      ]
+    },
+    "cited_sources": [
+      "08-size-exchanges",
+      "09-discounted-bundles",
+      "13-return-labels"
+    ],
+    "cited_phrase_hits": [
+      false,
+      true,
+      false,
+      false
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "1054349351",
+    "case_id": "u03",
+    "question": "How much of my annual membership fee will I get back if I cancel after using the free-shipping benefit?",
+    "source_sha256": "a92531d8f9018d62c45f87a58cebdaee764394160e4b254f3a08ce1c249b9c48",
+    "answer": {
+      "answer": "The refund amount you would receive cannot be determined. The evidence states that an active annual membership costs USD 24, but explicitly notes that 'Refund treatment for an already-used membership is not specified in this policy.' Therefore, the policy does not establish how much of the fee is returned after using benefits like free shipping.",
+      "abstain": true,
+      "citations": [
+        "625cd04d1852c6b0",
+        "5092d67cdea31716"
+      ]
+    },
+    "cited_sources": [
+      "12-member-benefits"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "226a25a532",
+    "case_id": "d05",
+    "question": "My tent seam separated during normal use 18 months after purchase. What do I need for a manufacturing-warranty assessment, and is a cash refund guaranteed?",
+    "source_sha256": "835c8027f844b3db61e02923b1b0e2542e3f79573c4f93a6e868a1095c664e37",
+    "answer": {
+      "answer": "For a manufacturing-warranty assessment, you must provide proof of purchase and clear photos so the repair team can assess the seam separation. Your tent falls within the 24-month warranty period for manufacturing defects. A cash refund is not guaranteed; the warranty team chooses repair or replacement after assessment, and support cannot promise a cash refund before that decision.",
+      "abstain": false,
+      "citations": [
+        "de37c58facfdab69"
+      ]
+    },
+    "cited_sources": [
+      "03-tent-warranty"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "7464166bfe",
+    "case_id": "m03",
+    "question": "I collected hiking boots from a store 50 days ago, wore them on normal walks, and have never claimed the fit trial. The boots cost 100 dollars. Can I return them now, when did the trial clock start, and what refund remains if I use one store label?",
+    "source_sha256": "fd2eaffc82360973fc0ded316f5401dba32f2a84940e4ac05c8312f62e26a61a",
+    "answer": {
+      "answer": "Yes, you can return them now. The fit-trial window is 60 calendar days, and you are at day 50. The trial clock started from the recorded collection date. The remaining refund is USD 93. Calculation: USD 100 item price minus USD 7 store label fee. Original delivery charges are non-refundable.",
+      "abstain": false,
+      "citations": [
+        "50e7bad4191dbbb9",
+        "60dae024f2adbf1a",
+        "ef9ca50a9737345a"
+      ]
+    },
+    "cited_sources": [
+      "02-boot-fit-trial",
+      "13-return-labels",
+      "19-store-pickup"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "404f78e4ca",
+    "case_id": "d04",
+    "question": "I do not have a membership. My ordinary US order was 80 dollars before a 10-dollar discount, before tax. Is standard shipping free?",
+    "source_sha256": "6bdad4f6cc819927ab06e52170860671966d413c54aabfb5a8ff1f081c0faec1",
+    "answer": {
+      "answer": "No, standard shipping is not free. The qualifying merchandise subtotal is calculated after discounts and before sales tax, making your subtotal USD 70. Since this is below the USD 75 threshold for non-members, standard delivery costs USD 6.",
+      "abstain": false,
+      "citations": [
+        "05-shipping-prices"
+      ]
+    },
+    "cited_sources": [
+      "05-shipping-prices"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "6ff6b06293",
+    "case_id": "u04",
+    "question": "My repair is already in the workshop and I am a member. What exact day will it be finished?",
+    "source_sha256": "2ac506e4e11df7b3e75aac810647b600a23bfd4e918d38680058608bde9dbc9a",
+    "answer": {
+      "answer": "The exact completion day cannot be determined from policy documents. Membership provides priority handling, which changes queue position, but does not guarantee a completion date. The completion date depends on current workshop capacity, parts availability, and your specific repair status, which are maintained in the live repair system. You would need to check that live record for your exact completion date.",
+      "abstain": true,
+      "citations": [
+        "87732b73e53652ff",
+        "625cd04d1852c6b0"
+      ]
+    },
+    "cited_sources": [
+      "12-member-benefits",
+      "18-repair-prices"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "1ef0ddb9d6",
+    "case_id": "m01",
+    "question": "I am an active member returning hiking boots after 45 days of ordinary outdoor walking. This is my first fit-trial claim. I paid 120 dollars for the boots plus 6 dollars outbound delivery and will use one store return label. Am I eligible and how much comes back?",
+    "source_sha256": "79ae1d9cfcbf3cb658c28b63e80db0fce8dd34f0bfcfd1c7f392e58ebecc4b14",
+    "answer": {
+      "answer": "Yes, you are eligible. You are within the 60-calendar-day window, ordinary outdoor walking is allowed, and this is your first claim in the 12-month period. The refund is the item price ($120) minus the return label fee ($7). The original delivery charge ($6) is nonrefundable, and membership does not waive the label fee. Total refund: $113.",
+      "abstain": false,
+      "citations": [
+        "50e7bad4191dbbb9",
+        "ef9ca50a9737345a"
+      ]
+    },
+    "cited_sources": [
+      "02-boot-fit-trial",
+      "13-return-labels"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "b83433d687",
+    "case_id": "u04",
+    "question": "My repair is already in the workshop and I am a member. What exact day will it be finished?",
+    "source_sha256": "ab72dde04c09449397e0a3edf566fc72d7e3ed66ad36a82cc3098283cc28d0f9",
+    "answer": {
+      "answer": "The exact completion day cannot be provided. The completion date depends on current workshop capacity, parts availability, and the item's specific repair status, which are maintained in the live repair system. Membership alone does not determine the finish date.",
+      "abstain": true,
+      "citations": [
+        "87732b73e53652ff"
+      ]
+    },
+    "cited_sources": [
+      "18-repair-prices"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "837a83fa7b",
+    "case_id": "m08",
+    "question": "I asked to cancel 20 minutes after ordering, but warehouse processing had already started. Does the 30-minute rule guarantee cancellation? If the order system later confirms cancellation before payment capture, is the pending card entry handled as a refund or as an authorization release, and what is the normal bank timing?",
+    "source_sha256": "2e05e21335c8f98c1ff32707351f9136167a31e819444867c20d7907b67aa3ba",
+    "answer": {
+      "answer": "No. The 30‑minute window does not guarantee cancellation if warehouse processing has already started; both conditions (within 30 minutes and processing not started) must hold, so a request sent within 30 minutes can still be too late. If the order system later confirms cancellation before payment capture, the store releases the authorization rather than issuing a refund for a captured payment. The card provider typically removes a released authorization within three to seven business days, though the exact timing depends on the provider.",
+      "abstain": false,
+      "citations": [
+        "7a1120acbd6d8a9f",
+        "e6cc30b70c422489",
+        "d6fe8d12e5448c46"
+      ]
+    },
+    "cited_sources": [
+      "16-order-changes",
+      "22-payment-holds"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "777358ff88",
+    "case_id": "u08",
+    "question": "What exact cash compensation will I receive because my lantern battery swelled?",
+    "source_sha256": "4fa7449f987a9edfc159a404c07f500ea5b24e5db3edafcb7ae8581a2130b0c1",
+    "answer": {
+      "answer": "The exact cash compensation cannot be determined. The evidence states that whether the item qualifies for a warranty remedy is assessed separately from safety handling. It does not specify the compensation amount or form for a swollen battery. The customer must contact the product safety team for instructions; the regular returns process and labels are not approved for damaged batteries.",
+      "abstain": true,
+      "citations": [
+        "bbde1a1550ed6787"
+      ]
+    },
+    "cited_sources": [
+      "17-damaged-batteries"
+    ],
+    "cited_phrase_hits": [
+      false
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "a8a7da9a4f",
+    "case_id": "m05",
+    "question": "I am an active member ordering an ordinary 45-dollar jacket to a contiguous-US address. If I choose standard delivery, what does shipping cost? If I choose express on Monday at 14:00 Eastern in a week without holidays, what does it cost and what is the transit target? Assume no payment or address issue.",
+    "source_sha256": "ec368277e6d01b6140072f04e553b06709f56cf194e3576e6870a97416025e64",
+    "answer": {
+      "answer": "Standard delivery costs USD 0. The qualifying merchandise subtotal is USD 45. An active membership reduces the free standard-delivery threshold to USD 40, and USD 45 meets this threshold. Express delivery costs USD 18. The transit target is two business days after dispatch. For an order placed on Monday at 14:00 Eastern in a week without holidays, dispatch occurs on Tuesday (since the order is after the 13:00 cutoff), making the transit target Thursday.",
+      "abstain": false,
+      "citations": [
+        "bb381b9b3123e92a",
+        "efdc78f24b69ba38",
+        "8bf7db6fd7826bf0"
+      ]
+    },
+    "cited_sources": [
+      "05-shipping-prices",
+      "06-express-delivery"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "6e204ed1e7",
+    "case_id": "u01",
+    "question": "Exactly what does replacing a torn tent floor cost? Please give me the fixed price.",
+    "source_sha256": "e5fea7562289022d8595e31a5ee27000a7df0a87b465eaca4e48265ef338098b",
+    "answer": {
+      "answer": "There is no published fixed price for replacing a torn tent floor. The policy states that this repair requires a quote after assessment.",
+      "abstain": true,
+      "citations": [
+        "18-repair-prices"
+      ]
+    },
+    "cited_sources": [
+      "18-repair-prices"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "a85f2f286a",
+    "case_id": "d04",
+    "question": "I do not have a membership. My ordinary US order was 80 dollars before a 10-dollar discount, before tax. Is standard shipping free?",
+    "source_sha256": "8de667cba64c87a76160d8c74f507330ed1ca9270fabbbc6777070f731043e82",
+    "answer": {
+      "answer": "No, standard shipping is not free. The qualifying merchandise subtotal is calculated after discounts and before sales tax. Your subtotal is $70 ($80 minus the $10 discount). For non-members, standard delivery is free only at USD 75 or more; below USD 75, it costs USD 6.",
+      "abstain": false,
+      "citations": [
+        "bb381b9b3123e92a"
+      ]
+    },
+    "cited_sources": [
+      "05-shipping-prices"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "2573c803a3",
+    "case_id": "u07",
+    "question": "What exact storage temperature does the rechargeable lantern manufacturer specify?",
+    "source_sha256": "c24da7392d463841a8df07c051688b2c1342b16f1f36d4f504b8d758d81bb1f4",
+    "answer": {
+      "answer": "The supplied evidence does not provide the exact storage temperature. The product care article states that rechargeable equipment should follow its manufacturer's charging and storage instructions, but explicitly notes that it 'does not supply a temperature specification for every model.' It advises referring product-specific questions to the relevant manual or product team when the required detail is absent.",
+      "abstain": true,
+      "citations": [
+        "56dc9667cf73cb4c",
+        "28a9fda631d80848"
+      ]
+    },
+    "cited_sources": [
+      "24-product-care"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "14a221c221",
+    "case_id": "m02",
+    "question": "I received the camping starter kit as a gift. It cost the buyer 80 dollars: the lantern was listed at 30, stove 50, and case 20. At day 40 I want to return only the unused lantern using one store label. I have the gift receipt. What amount do I get, and can it go to my bank card?",
+    "source_sha256": "c2270103f402a8b218618e97216ae5ed40c5e34f8027e288f0a902f95675816c",
+    "answer": {
+      "answer": "You receive USD 17 in store credit. Calculation: The lantern's allocated paid amount is USD 24 (USD 80 bundle price × USD 30 lantern list price ÷ USD 100 total list price). Using one store label deducts USD 7, resulting in USD 24 - USD 7 = USD 17. The refund cannot go to your bank card; the gift policy issues store credit to the recipient.",
+      "abstain": false,
+      "citations": [
+        "c85517983b3480bd",
+        "ef9ca50a9737345a",
+        "505e5f951174a07e"
+      ]
+    },
+    "cited_sources": [
+      "09-discounted-bundles",
+      "13-return-labels"
+    ],
+    "cited_phrase_hits": [
+      false,
+      true,
+      true,
+      false
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "81deb5083c",
+    "case_id": "u02",
+    "question": "On what date does the store credit I get from a gift return expire?",
+    "source_sha256": "f0719ffd1a6c870177d034b4781f8e98adee718344e477418530cc1df10970db",
+    "answer": {
+      "answer": "The supplied evidence does not state the expiration date for store credit issued from a gift return. Evidence 6674a2b72daa2f79 explicitly notes that the gift-returns article 'does not describe the expiration date or transferability of store credit.'",
+      "abstain": true,
+      "citations": [
+        "6674a2b72daa2f79"
+      ]
+    },
+    "cited_sources": [
+      "07-gift-returns"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "b2dcc07d6c",
+    "case_id": "d07",
+    "question": "The warehouse received my ordinary return. What is the longest published sequence until the bank-card credit appears, assuming normal approval?",
+    "source_sha256": "78efe772efca73a08bdb11d437f55a319b89a28c42b0b544845898a7a5ef56de",
+    "answer": {
+      "answer": "The longest published sequence for a bank-card credit to appear after warehouse receipt is 12 business days. This is calculated by adding the maximum time for each stage: 5 business days for inspection + 2 business days for refund submission + 5 business days for the card provider to show the credit.",
+      "abstain": false,
+      "citations": [
+        "cd4b23e3bc54afea"
+      ]
+    },
+    "cited_sources": [
+      "14-refund-timing"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "c3e7f8a750",
+    "case_id": "u06",
+    "question": "The carrier says my return was delivered yesterday. Has my refund already been approved and sent?",
+    "source_sha256": "e84d44035595d1a87c7c6396b85ae276beacdb1f97d22cdfaf4d993483ddbeba",
+    "answer": {
+      "answer": "I cannot confirm whether your refund has been approved or sent. A carrier delivery notification is not the same event as a completed inspection. The returns team normally inspects an ordinary parcel within five business days after warehouse receipt. Once approved, the store submits the refund within two business days, and the bank-card provider may take another three to five business days to show the credit. The policy page does not identify whether a particular return has been received, approved, or refunded; for that, support needs the live return record.",
+      "abstain": true,
+      "citations": [
+        "cd4b23e3bc54afea",
+        "0d9d1d3b7aa5ea13"
+      ]
+    },
+    "cited_sources": [
+      "14-refund-timing"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "1360db54d8",
+    "case_id": "u04",
+    "question": "My repair is already in the workshop and I am a member. What exact day will it be finished?",
+    "source_sha256": "6c21e1a58cd45b7319bc404db118def08788af52e234b14288e9f3eb3a14f7b7",
+    "answer": {
+      "answer": "I cannot provide the exact completion date for your repair. While membership grants priority handling in the repair queue, this changes the queue position and does not guarantee a completion date. The published policy states that current workshop capacity, parts availability, and a particular item's repair status are maintained in the live repair system, not in the policy documents. To obtain a completion date, the live repair record would need to be checked.",
+      "abstain": true,
+      "citations": [
+        "12-member-benefits",
+        "18-repair-prices"
+      ]
+    },
+    "cited_sources": [
+      "12-member-benefits",
+      "18-repair-prices"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "cc1d839209",
+    "case_id": "d05",
+    "question": "My tent seam separated during normal use 18 months after purchase. What do I need for a manufacturing-warranty assessment, and is a cash refund guaranteed?",
+    "source_sha256": "835c8027f844b3db61e02923b1b0e2542e3f79573c4f93a6e868a1095c664e37",
+    "answer": {
+      "answer": "For a manufacturing-warranty assessment, you must provide proof of purchase and clear photos so the repair team can assess the failure. Your claim falls within the 24-month warranty period. A cash refund is not guaranteed; the warranty team chooses repair or replacement after assessment, and support cannot promise a cash refund before that decision.",
+      "abstain": false,
+      "citations": [
+        "de37c58facfdab69"
+      ]
+    },
+    "cited_sources": [
+      "03-tent-warranty"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "53a2f31964",
+    "case_id": "m07",
+    "question": "As an active member I want a kayak delivered to my contiguous-US address and two tent pole sections replaced through paid repair. The repair quote separately says shipping is 12 dollars. Does membership make kayak delivery or the repair free? What are the two totals?",
+    "source_sha256": "c626344e205a6ab8215d50ba93629407e85f21425acc3da4df696c45604b8e29",
+    "answer": {
+      "answer": "Membership does not make kayak delivery or the repair free. The membership benefit waives standard delivery fees for qualifying merchandise but explicitly does not waive oversize-delivery charges or repair prices. Kayak delivery total: USD 35 (oversize fee applies regardless of membership). Repair total: USD 48 (USD 18 per section × 2 sections = USD 36 for work + USD 12 shipping per the quote).",
+      "abstain": false,
+      "citations": [
+        "11-oversize-delivery",
+        "12-member-benefits",
+        "18-repair-prices",
+        "03-tent-warranty"
+      ]
+    },
+    "cited_sources": [
+      "03-tent-warranty",
+      "11-oversize-delivery",
+      "12-member-benefits",
+      "18-repair-prices"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "94b8b3ebb3",
+    "case_id": "u05",
+    "question": "Are size 9 waterproof hiking boots available for pickup in my nearest store right now?",
+    "source_sha256": "44c7004a967e66136a757ad7951cccad20e5f14794ddd2cc4949c39bc521fcf7",
+    "answer": {
+      "answer": "I cannot confirm whether size 9 waterproof hiking boots are available for pickup at your nearest store right now. The store policy states that pickup eligibility and stock are specific to each store, and the online product catalog does not establish which store has an item today. The published pickup process cannot answer a live stock question. To check current availability, you would need to contact the store directly or check live inventory through the store's current stock system.",
+      "abstain": true,
+      "citations": [
+        "7a184c98ee5eec05",
+        "d942267f5252cb2c"
+      ]
+    },
+    "cited_sources": [
+      "11-oversize-delivery",
+      "19-store-pickup"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "aac55b7358",
+    "case_id": "m04",
+    "question": "I bought a final-sale outlet tent 18 months ago. A stitching seam has now separated in normal use; this was not a disclosed outlet flaw. Does final sale prevent a warranty claim, what evidence do I need, and will an approved manufacturing-defect return cost me a label fee?",
+    "source_sha256": "683d2a89210d70903004406bf401445909a56d0d60f345d737ae6c1bcd529b59",
+    "answer": {
+      "answer": "Final sale does not prevent a warranty claim; the policy explicitly states that final sale does not remove the manufacturing warranty, and a defective outlet tent follows the standard tent warranty assessment process. For your claim, you must provide proof of purchase and clear photos so the repair team can assess the seam failure. An approved manufacturing-defect claim receives a prepaid ground label, so you will not pay a label fee.",
+      "abstain": false,
+      "citations": [
+        "10-outlet-products",
+        "03-tent-warranty",
+        "13-return-labels"
+      ]
+    },
+    "cited_sources": [
+      "03-tent-warranty",
+      "10-outlet-products",
+      "13-return-labels"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "be21b66111",
+    "case_id": "d04",
+    "question": "I do not have a membership. My ordinary US order was 80 dollars before a 10-dollar discount, before tax. Is standard shipping free?",
+    "source_sha256": "34dc95ba402a8bf58a5af2b54f31119ecfc49f596b2e9175f52552e2271d30f0",
+    "answer": {
+      "answer": "No, standard shipping is not free. The qualifying merchandise subtotal is $70 (the $80 order total minus the $10 discount), which is below the $75 threshold for free standard delivery for non-members. Standard ground delivery would cost $6.",
+      "abstain": false,
+      "citations": [
+        "bb381b9b3123e92a"
+      ]
+    },
+    "cited_sources": [
+      "05-shipping-prices"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "ad7559c5bb",
+    "case_id": "u03",
+    "question": "How much of my annual membership fee will I get back if I cancel after using the free-shipping benefit?",
+    "source_sha256": "2894454a9bd5caed7fa383c5440631f0354f639beca910a6e5adc76775a30d57",
+    "answer": {
+      "answer": "The refund amount cannot be determined. The evidence confirms an active annual membership costs USD 24, but explicitly states that 'Refund treatment for an already-used membership is not specified in this policy.' Therefore, I cannot calculate how much of your fee would be returned after using the free-shipping benefit.",
+      "abstain": true,
+      "citations": [
+        "625cd04d1852c6b0",
+        "5092d67cdea31716"
+      ]
+    },
+    "cited_sources": [
+      "12-member-benefits"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "b2cdddbab6",
+    "case_id": "d01",
+    "question": "I bought an unused jacket online and it arrived 28 days ago. Can I still start a return, and how soon must I send it after approval?",
+    "source_sha256": "718ee5d421001077bd19878962718a8b66ea572c4db5b584bea76038e9272e0f",
+    "answer": {
+      "answer": "Yes, you can still start a return. The policy allows returns for unused gear within 30 calendar days of delivery, and you are at 28 days. You must open the return request in the order portal before that 30-day window ends. After your request is approved, you have seven calendar days to hand the parcel to the carrier.",
+      "abstain": false,
+      "citations": [
+        "50913a6804b7a320"
+      ]
+    },
+    "cited_sources": [
+      "01-standard-returns"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "d40253fb57",
+    "case_id": "u05",
+    "question": "Are size 9 waterproof hiking boots available for pickup in my nearest store right now?",
+    "source_sha256": "8196e3c6b1d434318129d6bdb4b1e762150676516992d7b6f839278551c51a6a",
+    "answer": {
+      "answer": "I cannot confirm whether size 9 waterproof hiking boots are available for pickup at your nearest store right now. The policy documents state that the online product catalog does not establish which store has an item today, and the published pickup process cannot answer a live stock question. Checking live store inventory requires accessing real-time stock records, which are not contained in these policy articles.",
+      "abstain": true,
+      "citations": [
+        "19-store-pickup"
+      ]
+    },
+    "cited_sources": [
+      "19-store-pickup"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "f4411ce0a8",
+    "case_id": "d07",
+    "question": "The warehouse received my ordinary return. What is the longest published sequence until the bank-card credit appears, assuming normal approval?",
+    "source_sha256": "c27f02fb9ab5f7f7f54ebd680cff67298786cec75bbc8adac27827c048587db4",
+    "answer": {
+      "answer": "The longest published sequence for a bank-card credit after warehouse receipt is up to 12 business days. This comprises: 5 business days for inspection, 2 business days for the store to submit the refund, and 5 business days for the card provider to show the credit. These stages happen in sequence.",
+      "abstain": false,
+      "citations": [
+        "cd4b23e3bc54afea"
+      ]
+    },
+    "cited_sources": [
+      "14-refund-timing"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "6319340ae4",
+    "case_id": "m03",
+    "question": "I collected hiking boots from a store 50 days ago, wore them on normal walks, and have never claimed the fit trial. The boots cost 100 dollars. Can I return them now, when did the trial clock start, and what refund remains if I use one store label?",
+    "source_sha256": "377d611ac7c01334003fd19309cf7aa26d0d1d71708dd1d0fd1724a70bd16c76",
+    "answer": {
+      "answer": "Yes, you can return the boots now. The 60-calendar-day fit trial is measured from delivery, and you are within that window at 50 days. Wearing the boots on ordinary outdoor walks is explicitly included in the trial. The trial clock started from the recorded collection date, as the order was collected in store. The refund is calculated as the item price minus the label fee: 100 dollars - 7 dollars = 93 dollars. The policy does not state whether in-store collection counts as 'delivery' for the fit-trial start date, so the exact start event cannot be fully established.",
+      "abstain": false,
+      "citations": [
+        "50e7bad4191dbbb9",
+        "ef9ca50a9737345a",
+        "7a184c98ee5eec05"
+      ]
+    },
+    "cited_sources": [
+      "02-boot-fit-trial",
+      "13-return-labels",
+      "19-store-pickup"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "9b32c631fd",
+    "case_id": "m02",
+    "question": "I received the camping starter kit as a gift. It cost the buyer 80 dollars: the lantern was listed at 30, stove 50, and case 20. At day 40 I want to return only the unused lantern using one store label. I have the gift receipt. What amount do I get, and can it go to my bank card?",
+    "source_sha256": "38b69086b3e0e81cd568f3aa2a45e171b16dbb4c08494bec2a5653c6a24ba139",
+    "answer": {
+      "answer": "You are within the 45-day gift return window, so the unused lantern is eligible. The refund amount is USD 17 (USD 24 allocated price for the lantern minus USD 7 for the store return label). The refund must be issued as store credit, not to your bank card.",
+      "abstain": false,
+      "citations": [
+        "07-gift-returns",
+        "09-discounted-bundles",
+        "13-return-labels"
+      ]
+    },
+    "cited_sources": [
+      "07-gift-returns",
+      "09-discounted-bundles",
+      "13-return-labels"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "d9624534af",
+    "case_id": "d02",
+    "question": "These hiking boots hurt after outdoor walks. Delivery was 50 days ago, they only have normal trail dust, and I have never used the fit trial. Are they still eligible?",
+    "source_sha256": "a84a6103f19a1b65224deb7ab23d41bdb0bb3906029f0802e69406293597bdf7",
+    "answer": {
+      "answer": "Yes, the boots appear eligible for the fit-trial return. The fit trial allows 60 calendar days from delivery, and 50 days is within that window. Boots worn on ordinary outdoor walks qualify, and normal trail dust does not disqualify them. You have not used your one allowed fit-trial return in the past 12 months. To proceed, open a return request in the portal and select the fit-trial reason; after approval you have seven days to dispatch the boots as a complete pair. The refund covers the item price; original delivery charges are nonrefundable.",
+      "abstain": false,
+      "citations": [
+        "50e7bad4191dbbb9"
+      ]
+    },
+    "cited_sources": [
+      "02-boot-fit-trial"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "058ffc5ba1",
+    "case_id": "u01",
+    "question": "Exactly what does replacing a torn tent floor cost? Please give me the fixed price.",
+    "source_sha256": "d906e6a5a5ed22d66084b5450b2dff2aa024688d5351fb71aaa74043b8c36952",
+    "answer": {
+      "answer": "There is no fixed price for replacing a torn tent floor. This repair requires an individual quote after assessment, and you must approve the quotation before work begins.",
+      "abstain": true,
+      "citations": [
+        "051d68aa3903ec3b"
+      ]
+    },
+    "cited_sources": [
+      "18-repair-prices"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "0e5fd5c54c",
+    "case_id": "m06",
+    "question": "I am in Canada and bought the starter kit for 80 dollars; the stove's original share of the 100-dollar individual total was 50 dollars. At day 20 after delivery I want to return only the unused empty stove. What item refund applies, who arranges return shipping, and can I use the store's 7-dollar label?",
+    "source_sha256": "5df8926059f1c254da1fc7f5d787dcc66670f1506cfcae220305ef22539371ba",
+    "answer": {
+      "answer": "The item refund is USD 40. This is calculated by allocating the USD 80 bundle price in proportion to the stove's USD 50 individual price: (USD 50 ÷ USD 100) × USD 80 = USD 40. The stove is eligible for return as an unused item within the 30-day window. Because you are in Canada, you are an international customer and must arrange and pay for return shipping yourself. You cannot use the store's USD 7 domestic return label, as it is not issued for international parcels.",
+      "abstain": false,
+      "citations": [
+        "09-discounted-bundles",
+        "01-standard-returns",
+        "15-international-orders",
+        "13-return-labels"
+      ]
+    },
+    "cited_sources": [
+      "01-standard-returns",
+      "09-discounted-bundles",
+      "13-return-labels",
+      "15-international-orders"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "ae6ceb8034",
+    "case_id": "m01",
+    "question": "I am an active member returning hiking boots after 45 days of ordinary outdoor walking. This is my first fit-trial claim. I paid 120 dollars for the boots plus 6 dollars outbound delivery and will use one store return label. Am I eligible and how much comes back?",
+    "source_sha256": "962ede6ddfa9170feba90c3aab7b733e40f49aea17a9e5a2a1fad97d3ef870ac",
+    "answer": {
+      "answer": "Yes, you are eligible. The 60-calendar-day fit trial allows returns after 45 days with ordinary outdoor wear, and this is your first claim in the 12-month period. You will receive a refund of the item price only. Calculation: $120 (item price) - $6 (non-refundable original delivery) - $7 (store return label fee) = $107.",
+      "abstain": false,
+      "citations": [
+        "50e7bad4191dbbb9",
+        "ef9ca50a9737345a",
+        "625cd04d1852c6b0"
+      ]
+    },
+    "cited_sources": [
+      "02-boot-fit-trial",
+      "12-member-benefits",
+      "13-return-labels"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "4319cdb357",
+    "case_id": "m04",
+    "question": "I bought a final-sale outlet tent 18 months ago. A stitching seam has now separated in normal use; this was not a disclosed outlet flaw. Does final sale prevent a warranty claim, what evidence do I need, and will an approved manufacturing-defect return cost me a label fee?",
+    "source_sha256": "1cf310c84e5eadccb4e2594a00ed79b3f6cc30966de7f8cc3451365f80ab0426",
+    "answer": {
+      "answer": "Final sale does not prevent a warranty claim. Your tent has a 24-month warranty for manufacturing defects from the purchase date, and a stitching seam separating during normal use can qualify; at 18 months, you are within this window. You must provide proof of purchase and clear photos showing the failure so the repair team can assess it. An approved manufacturing-defect claim receives a prepaid ground label, so you will not be charged a label fee.",
+      "abstain": false,
+      "citations": [
+        "f1993cace94ca375",
+        "de37c58facfdab69",
+        "b62064cd43325a7f"
+      ]
+    },
+    "cited_sources": [
+      "03-tent-warranty",
+      "10-outlet-products"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "c26c2de1f5",
+    "case_id": "m07",
+    "question": "As an active member I want a kayak delivered to my contiguous-US address and two tent pole sections replaced through paid repair. The repair quote separately says shipping is 12 dollars. Does membership make kayak delivery or the repair free? What are the two totals?",
+    "source_sha256": "3f341bdc40c8fb39687f1e2430b00ad5dedfb453441fb4fb776bad6b4d88ceba",
+    "answer": {
+      "answer": "Membership does not make kayak delivery or the repair free. Membership does not waive oversize-delivery charges or repair prices. Kayak delivery total: USD 35. Repair total: USD 48 (USD 18 per section × 2 sections = USD 36; USD 36 + USD 12 shipping = USD 48).",
+      "abstain": false,
+      "citations": [
+        "d83f7e2fda469565",
+        "625cd04d1852c6b0",
+        "051d68aa3903ec3b"
+      ]
+    },
+    "cited_sources": [
+      "11-oversize-delivery",
+      "12-member-benefits",
+      "18-repair-prices"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "9022fe5576",
+    "case_id": "d06",
+    "question": "I need a bigger size of the same jacket model for a domestic order. The current price went up. What price applies, and how long is an approved replacement held?",
+    "source_sha256": "615a0b46ad670db744fdb9a73b25d885c4fa7afec3b5788f668376f0b76f0ad9",
+    "answer": {
+      "answer": "For a domestic size exchange of the same jacket model, the exchange keeps the original paid item price even if the current listing price has changed. The warehouse holds an approved replacement for seven calendar days; you must hand the returning parcel to the carrier within that period.",
+      "abstain": false,
+      "citations": [
+        "08-size-exchanges"
+      ]
+    },
+    "cited_sources": [
+      "08-size-exchanges"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "9317cb0f53",
+    "case_id": "u08",
+    "question": "What exact cash compensation will I receive because my lantern battery swelled?",
+    "source_sha256": "c513660e64791e7b5164e9bac4bb07135a95221880aa88bbb5445f0c39c66163",
+    "answer": {
+      "answer": "The exact cash compensation cannot be established from the supplied evidence. The policy states that a swollen battery must not be sent through the ordinary returns process and requires contacting the product safety team for instructions. Whether the item qualifies for a warranty remedy is assessed separately from how it is handled safely, and no specific refund or compensation amounts for damaged batteries are provided in the documents.",
+      "abstain": true,
+      "citations": [
+        "bbde1a1550ed6787",
+        "feafb2b9c386c0ab",
+        "219a0eb840da271f"
+      ]
+    },
+    "cited_sources": [
+      "04-lithium-delivery",
+      "13-return-labels",
+      "17-damaged-batteries"
+    ],
+    "cited_phrase_hits": [
+      false
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "c18396696c",
+    "case_id": "u01",
+    "question": "Exactly what does replacing a torn tent floor cost? Please give me the fixed price.",
+    "source_sha256": "d906e6a5a5ed22d66084b5450b2dff2aa024688d5351fb71aaa74043b8c36952",
+    "answer": {
+      "answer": "There is no fixed price for a torn tent floor replacement. This repair requires an individual quote after assessment, and you must approve the quotation before work begins.",
+      "abstain": true,
+      "citations": [
+        "051d68aa3903ec3b"
+      ]
+    },
+    "cited_sources": [
+      "18-repair-prices"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "252c57f7e5",
+    "case_id": "d06",
+    "question": "I need a bigger size of the same jacket model for a domestic order. The current price went up. What price applies, and how long is an approved replacement held?",
+    "source_sha256": "6bd4f9aaf4474c85a02ad3e979e44b79c97f9c3598f3924c9f111a663e0ade8f",
+    "answer": {
+      "answer": "For a domestic size exchange of the same jacket model, the exchange keeps the original paid item price even if the current listing price has changed. The warehouse holds an approved replacement for seven calendar days; you must hand the returning parcel to the carrier within that period. The hold does not last until the parcel physically arrives at the warehouse.",
+      "abstain": false,
+      "citations": [
+        "157894c3fbda0208"
+      ]
+    },
+    "cited_sources": [
+      "08-size-exchanges"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "6f1e31daff",
+    "case_id": "d08",
+    "question": "My rechargeable lantern battery has swollen. Should I use the usual ground return label to send it back?",
+    "source_sha256": "a14926390f3f6ef5bb9b22562429b03e31e8fbdd74ee87545adba70e67174211",
+    "answer": {
+      "answer": "No, do not use the usual ground return label. A swollen battery must never be sent using the ordinary returns process. You should stop using or charging the device and contact the product safety team through the support form (battery-safety category) for specific instructions.",
+      "abstain": false,
+      "citations": [
+        "bbde1a1550ed6787",
+        "219a0eb840da271f",
+        "feafb2b9c386c0ab"
+      ]
+    },
+    "cited_sources": [
+      "04-lithium-delivery",
+      "13-return-labels",
+      "17-damaged-batteries"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "92228e30a8",
+    "case_id": "u03",
+    "question": "How much of my annual membership fee will I get back if I cancel after using the free-shipping benefit?",
+    "source_sha256": "fca42d7fbc262a9249f910b0392aecd901c3440bd57a9e95421c0f833afa8e4d",
+    "answer": {
+      "answer": "The supplied policies do not specify the refund treatment for an already-used membership. The annual membership costs USD 24, but the documents do not state whether using benefits such as free shipping affects the refund amount upon cancellation.",
+      "abstain": true,
+      "citations": [
+        "5092d67cdea31716",
+        "625cd04d1852c6b0"
+      ]
+    },
+    "cited_sources": [
+      "12-member-benefits"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "401cf1b379",
+    "case_id": "m07",
+    "question": "As an active member I want a kayak delivered to my contiguous-US address and two tent pole sections replaced through paid repair. The repair quote separately says shipping is 12 dollars. Does membership make kayak delivery or the repair free? What are the two totals?",
+    "source_sha256": "3f341bdc40c8fb39687f1e2430b00ad5dedfb453441fb4fb776bad6b4d88ceba",
+    "answer": {
+      "answer": "Membership does not make kayak delivery or the repair free. Membership does not waive oversize-delivery charges or repair prices. Kayak delivery total: USD 35 (oversize fee applies regardless of membership). Repair total: USD 48 (USD 18 per section × 2 sections + USD 12 shipping).",
+      "abstain": false,
+      "citations": [
+        "d83f7e2fda469565",
+        "625cd04d1852c6b0",
+        "051d68aa3903ec3b"
+      ]
+    },
+    "cited_sources": [
+      "11-oversize-delivery",
+      "12-member-benefits",
+      "18-repair-prices"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "b7aa01c934",
+    "case_id": "d01",
+    "question": "I bought an unused jacket online and it arrived 28 days ago. Can I still start a return, and how soon must I send it after approval?",
+    "source_sha256": "718ee5d421001077bd19878962718a8b66ea572c4db5b584bea76038e9272e0f",
+    "answer": {
+      "answer": "Yes, you can still start a return. The policy accepts returns for unused gear within 30 calendar days after delivery, and you are currently at 28 days. You must open the request in the order portal before the 30-day window ends. After approval, you have seven calendar days to hand the parcel to the carrier.",
+      "abstain": false,
+      "citations": [
+        "50913a6804b7a320"
+      ]
+    },
+    "cited_sources": [
+      "01-standard-returns"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "919c3fe9a7",
+    "case_id": "m08",
+    "question": "I asked to cancel 20 minutes after ordering, but warehouse processing had already started. Does the 30-minute rule guarantee cancellation? If the order system later confirms cancellation before payment capture, is the pending card entry handled as a refund or as an authorization release, and what is the normal bank timing?",
+    "source_sha256": "2e22a73a342a0b0789e017cb09c0ceaa90809626e65d0eb86b42f8674f3bc7b5",
+    "answer": {
+      "answer": "No, the 30-minute rule does not guarantee cancellation. A request sent within 30 minutes can still be too late if warehouse processing has already begun, because both conditions must hold [7a1120acbd6d8a9f]. If the order system confirms cancellation before payment capture, the store releases the authorization rather than issuing a refund [e6cc30b70c422489]. The card provider typically removes a released authorization within three to seven business days, but the exact display time depends on the provider [e6cc30b70c422489].",
+      "abstain": false,
+      "citations": [
+        "7a1120acbd6d8a9f",
+        "e6cc30b70c422489"
+      ]
+    },
+    "cited_sources": [
+      "16-order-changes",
+      "22-payment-holds"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "d7ceaa8bba",
+    "case_id": "d02",
+    "question": "These hiking boots hurt after outdoor walks. Delivery was 50 days ago, they only have normal trail dust, and I have never used the fit trial. Are they still eligible?",
+    "source_sha256": "97688866d1bc86d2452331058ca414379ba9c66d10bbbb83590d2c8d1b3bc78b",
+    "answer": {
+      "answer": "Yes, the hiking boots appear eligible for the fit trial. The policy provides a 60-calendar-day window measured from delivery, and 50 days falls within this limit. Normal trail dust does not disqualify the boots, and having never used the fit trial before means you can claim this one-time return in a rolling 12-month period.",
+      "abstain": false,
+      "citations": [
+        "50e7bad4191dbbb9"
+      ]
+    },
+    "cited_sources": [
+      "02-boot-fit-trial"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "79e2b95b1f",
+    "case_id": "m02",
+    "question": "I received the camping starter kit as a gift. It cost the buyer 80 dollars: the lantern was listed at 30, stove 50, and case 20. At day 40 I want to return only the unused lantern using one store label. I have the gift receipt. What amount do I get, and can it go to my bank card?",
+    "source_sha256": "f38e789d38a2478dd0501d6dd213a07132ad6b5a8f5d228eda56eb080197eca9",
+    "answer": {
+      "answer": "You receive USD 17 in store credit. Calculation: The lantern's allocated paid amount is USD 24 (USD 80 paid × USD 30 list price ÷ USD 100 total list price). Using one store label deducts USD 7, leaving USD 17. The refund cannot go to your bank card; gift recipients receive store credit only. The return is within the 45-day gift window.",
+      "abstain": false,
+      "citations": [
+        "c85517983b3480bd",
+        "5a086d73e44b9c4a",
+        "ef9ca50a9737345a",
+        "505e5f951174a07e"
+      ]
+    },
+    "cited_sources": [
+      "07-gift-returns",
+      "09-discounted-bundles",
+      "13-return-labels"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "7e277a9f44",
+    "case_id": "d05",
+    "question": "My tent seam separated during normal use 18 months after purchase. What do I need for a manufacturing-warranty assessment, and is a cash refund guaranteed?",
+    "source_sha256": "095323eb71c92258753c2bf3dd60927e5f4b27ecafed26720c997c817f1e4d8d",
+    "answer": {
+      "answer": "For a manufacturing-warranty assessment on your tent, you must provide proof of purchase and clear photos so the repair team can assess the seam separation. Your tent falls within the 24-month warranty period for manufacturing defects, and a stitching seam that separates during normal use can qualify. A cash refund is not guaranteed; the warranty team chooses repair or replacement after assessment, and support cannot promise a cash refund before that decision.",
+      "abstain": false,
+      "citations": [
+        "03-tent-warranty"
+      ]
+    },
+    "cited_sources": [
+      "03-tent-warranty"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "acc93e2fa9",
+    "case_id": "m05",
+    "question": "I am an active member ordering an ordinary 45-dollar jacket to a contiguous-US address. If I choose standard delivery, what does shipping cost? If I choose express on Monday at 14:00 Eastern in a week without holidays, what does it cost and what is the transit target? Assume no payment or address issue.",
+    "source_sha256": "9f020d83da418a36fa0b794c0760ec49211a93e1b577545d40c8e25464f44e68",
+    "answer": {
+      "answer": "Standard delivery costs USD 0. The qualifying merchandise subtotal is USD 45. As an active member, your free standard-delivery threshold is lowered to USD 40, so standard delivery is free. Express delivery costs USD 18. The transit target is two business days after dispatch. For an order placed on Monday at 14:00 Eastern with no holidays, dispatch occurs on Tuesday (since the order was received after the 13:00 cutoff), making the transit target Thursday.",
+      "abstain": false,
+      "citations": [
+        "05-shipping-prices",
+        "06-express-delivery"
+      ]
+    },
+    "cited_sources": [
+      "05-shipping-prices",
+      "06-express-delivery"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "cb6e388b55",
+    "case_id": "d07",
+    "question": "The warehouse received my ordinary return. What is the longest published sequence until the bank-card credit appears, assuming normal approval?",
+    "source_sha256": "1daacd896162d8ae1933b1200ff265a346ba947d6af3da2381412901eca5d10c",
+    "answer": {
+      "answer": "The longest published sequence is 12 business days after warehouse receipt. This consists of: 5 business days for inspection, 2 business days for the store to submit the refund, and 3 to 5 business days for the bank-card provider to show the credit.",
+      "abstain": false,
+      "citations": [
+        "14-refund-timing"
+      ]
+    },
+    "cited_sources": [
+      "14-refund-timing"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "4501ad920e",
+    "case_id": "m04",
+    "question": "I bought a final-sale outlet tent 18 months ago. A stitching seam has now separated in normal use; this was not a disclosed outlet flaw. Does final sale prevent a warranty claim, what evidence do I need, and will an approved manufacturing-defect return cost me a label fee?",
+    "source_sha256": "1cf310c84e5eadccb4e2594a00ed79b3f6cc30966de7f8cc3451365f80ab0426",
+    "answer": {
+      "answer": "Final sale does not remove the manufacturing warranty. Your tent falls within the 24-month warranty period (purchased 18 months ago), and a stitching seam separating during normal use can qualify as a manufacturing defect. You need to provide proof of purchase and clear photos for the assessment. An approved manufacturing-defect claim receives a prepaid ground label, so you will not pay a label fee.",
+      "abstain": false,
+      "citations": [
+        "f1993cace94ca375",
+        "de37c58facfdab69",
+        "b62064cd43325a7f"
+      ]
+    },
+    "cited_sources": [
+      "03-tent-warranty",
+      "10-outlet-products"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "714967b177",
+    "case_id": "d05",
+    "question": "My tent seam separated during normal use 18 months after purchase. What do I need for a manufacturing-warranty assessment, and is a cash refund guaranteed?",
+    "source_sha256": "fcfb7c6e062c41d0e0b607beaab51b063528462a3b012b9e196377e51b1c6e19",
+    "answer": {
+      "answer": "For a manufacturing-warranty assessment, you must provide proof of purchase and clear photos so the repair team can assess the seam failure. Your tent falls within the 24-month warranty period for manufacturing defects. A cash refund is not guaranteed; the warranty team chooses repair or replacement after assessment, and support cannot promise a cash refund before that decision.",
+      "abstain": false,
+      "citations": [
+        "de37c58facfdab69"
+      ]
+    },
+    "cited_sources": [
+      "03-tent-warranty"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "bfa1439b17",
+    "case_id": "u02",
+    "question": "On what date does the store credit I get from a gift return expire?",
+    "source_sha256": "0dc066d7bde3d45716b2ad41b088c767fe9d53740557ad82185e169dbac8976b",
+    "answer": {
+      "answer": "The supplied evidence does not state the expiration date for store credit issued from a gift return. Evidence ID 6674a2b72daa2f79 explicitly notes that the article does not describe the expiration date of store credit.",
+      "abstain": true,
+      "citations": [
+        "6674a2b72daa2f79"
+      ]
+    },
+    "cited_sources": [
+      "07-gift-returns"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "e6b0e0b4ec",
+    "case_id": "u03",
+    "question": "How much of my annual membership fee will I get back if I cancel after using the free-shipping benefit?",
+    "source_sha256": "a4cff546f2c0b234556ca821a9140701fff3de194760b7bebc35ee4f3dd20a02",
+    "answer": {
+      "answer": "The supplied policy states that an active annual membership costs USD 24 and lasts 12 months, but it explicitly notes that 'Refund treatment for an already-used membership is not specified in this policy.' Therefore, the amount you would receive back after using the free-shipping benefit cannot be established from the provided evidence.",
+      "abstain": true,
+      "citations": [
+        "12-member-benefits"
+      ]
+    },
+    "cited_sources": [
+      "12-member-benefits"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "8f4bc56e96",
+    "case_id": "m05",
+    "question": "I am an active member ordering an ordinary 45-dollar jacket to a contiguous-US address. If I choose standard delivery, what does shipping cost? If I choose express on Monday at 14:00 Eastern in a week without holidays, what does it cost and what is the transit target? Assume no payment or address issue.",
+    "source_sha256": "4348bcb2c36a1d5fe64f3de509a42b6be7c54b5d8a2b0678870597abd395b5b9",
+    "answer": {
+      "answer": "Standard delivery costs USD 0. Your active membership lowers the free standard-delivery threshold to USD 40, and your $45 subtotal qualifies. Express delivery costs USD 18. For an order placed Monday at 14:00 Eastern in a week without holidays, dispatch occurs on Tuesday (since the order is after the 13:00 cutoff) and the two-business-day transit target is Thursday.",
+      "abstain": false,
+      "citations": [
+        "bb381b9b3123e92a",
+        "efdc78f24b69ba38"
+      ]
+    },
+    "cited_sources": [
+      "05-shipping-prices",
+      "06-express-delivery"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "6aebcb2227",
+    "case_id": "d05",
+    "question": "My tent seam separated during normal use 18 months after purchase. What do I need for a manufacturing-warranty assessment, and is a cash refund guaranteed?",
+    "source_sha256": "7e3d74f37af5c723abc8463b877627335b1d6cd373ba73848b29ee32687a1367",
+    "answer": {
+      "answer": "For a manufacturing-warranty assessment, you must provide proof of purchase and clear photos so the repair team can assess the failure. You should dry the tent before packing it and not include fuel canisters, batteries, food, or personal belongings. A cash refund is not guaranteed; the warranty team chooses repair or replacement after assessment, and support cannot promise a cash refund before that decision.",
+      "abstain": false,
+      "citations": [
+        "de37c58facfdab69"
+      ]
+    },
+    "cited_sources": [
+      "03-tent-warranty"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "b2c6b7d2a8",
+    "case_id": "u06",
+    "question": "The carrier says my return was delivered yesterday. Has my refund already been approved and sent?",
+    "source_sha256": "17bf95afcc2827e41e996fc88bb8aa1e2bf80f6d020859dc20d3cbc61654feca",
+    "answer": {
+      "answer": "I cannot confirm whether your refund has been approved or sent. A carrier delivery notification is not the same event as a completed inspection. The returns team normally inspects an ordinary parcel within five business days after warehouse receipt. Once approved, the store submits the refund within two business days, and the bank-card provider may take another three to five business days to show the credit. The policy documents do not identify whether a particular return has been received, approved, or refunded; for that, support needs the live return record.",
+      "abstain": true,
+      "citations": [
+        "cd4b23e3bc54afea",
+        "0d9d1d3b7aa5ea13"
+      ]
+    },
+    "cited_sources": [
+      "14-refund-timing"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "1671626086",
+    "case_id": "d08",
+    "question": "My rechargeable lantern battery has swollen. Should I use the usual ground return label to send it back?",
+    "source_sha256": "2354c79ddb46bf5d628f400de5594a11962f9dee6b28fb428b15e8f6974c355d",
+    "answer": {
+      "answer": "No, do not use the usual ground return label. A swollen battery is a safety hazard that must not be sent through the ordinary returns process. You must stop using or charging the device and contact the product safety team via the support form (selecting the battery-safety category) to receive specific instructions for your situation.",
+      "abstain": false,
+      "citations": [
+        "17-damaged-batteries",
+        "13-return-labels",
+        "04-lithium-delivery"
+      ]
+    },
+    "cited_sources": [
+      "04-lithium-delivery",
+      "13-return-labels",
+      "17-damaged-batteries"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "4b41942c19",
+    "case_id": "d02",
+    "question": "These hiking boots hurt after outdoor walks. Delivery was 50 days ago, they only have normal trail dust, and I have never used the fit trial. Are they still eligible?",
+    "source_sha256": "97688866d1bc86d2452331058ca414379ba9c66d10bbbb83590d2c8d1b3bc78b",
+    "answer": {
+      "answer": "Yes, the hiking boots are eligible. The fit trial allows 60 calendar days from delivery, and 50 days is within this window. Normal trail dust does not disqualify the boots. Having never used the fit trial means you are eligible to claim the one return permitted in a rolling 12-month period.",
+      "abstain": false,
+      "citations": [
+        "50e7bad4191dbbb9"
+      ]
+    },
+    "cited_sources": [
+      "02-boot-fit-trial"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "677d5141af",
+    "case_id": "d01",
+    "question": "I bought an unused jacket online and it arrived 28 days ago. Can I still start a return, and how soon must I send it after approval?",
+    "source_sha256": "50f8e79786704c2693805af5ca7b3e01641008cd6e62ff3770ea9ecadeab7072",
+    "answer": {
+      "answer": "Yes, you can still start a return. The online store accepts returns for unused gear within 30 calendar days after delivery, and your jacket arrived 28 days ago. You must open a return request in the order portal before that 30-day window ends. After your request is approved, you have seven calendar days to hand the parcel to the carrier.",
+      "abstain": false,
+      "citations": [
+        "01-standard-returns"
+      ]
+    },
+    "cited_sources": [
+      "01-standard-returns"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "d1d5ad3a9e",
+    "case_id": "m01",
+    "question": "I am an active member returning hiking boots after 45 days of ordinary outdoor walking. This is my first fit-trial claim. I paid 120 dollars for the boots plus 6 dollars outbound delivery and will use one store return label. Am I eligible and how much comes back?",
+    "source_sha256": "79ae1d9cfcbf3cb658c28b63e80db0fce8dd34f0bfcfd1c7f392e58ebecc4b14",
+    "answer": {
+      "answer": "Yes, you are eligible. You are within the 60-calendar-day fit trial window, ordinary outdoor walking is allowed, and this is your first claim in the 12-month period. The refund is calculated as the item price ($120) minus the return label fee ($7), as the original delivery charge ($6) is nonrefundable and membership does not waive the label fee. Total refund: $113.",
+      "abstain": false,
+      "citations": [
+        "50e7bad4191dbbb9",
+        "ef9ca50a9737345a"
+      ]
+    },
+    "cited_sources": [
+      "02-boot-fit-trial",
+      "13-return-labels"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "4ceeb0a6c5",
+    "case_id": "u02",
+    "question": "On what date does the store credit I get from a gift return expire?",
+    "source_sha256": "8c68e5c65ab7d041e179d96691cf65ed07eaa1d5341d3a3173f010f9e5849404",
+    "answer": {
+      "answer": "The supplied policy documents do not state the expiration date for store credit issued from a gift return. Evidence 07 confirms that a gift recipient receives store credit equal to the item's paid price, but explicitly notes that the article 'does not describe the expiration date or transferability of store credit.'",
+      "abstain": true,
+      "citations": [
+        "07-gift-returns"
+      ]
+    },
+    "cited_sources": [
+      "07-gift-returns"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "ea1244cfd4",
+    "case_id": "d08",
+    "question": "My rechargeable lantern battery has swollen. Should I use the usual ground return label to send it back?",
+    "source_sha256": "81bee59d71018b4326c6fdf54aec02e091e79b73f97f82827d603eaadcff0405",
+    "answer": {
+      "answer": "No, do not use the usual ground return label. A swollen battery must never be sent using the ordinary returns process or label. You should stop using the lantern immediately and contact the product safety team via the support form (selecting the battery-safety category) to receive specific instructions for your situation.",
+      "abstain": false,
+      "citations": [
+        "bbde1a1550ed6787",
+        "219a0eb840da271f",
+        "feafb2b9c386c0ab"
+      ]
+    },
+    "cited_sources": [
+      "04-lithium-delivery",
+      "13-return-labels",
+      "17-damaged-batteries"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "01f6da1bd0",
+    "case_id": "d01",
+    "question": "I bought an unused jacket online and it arrived 28 days ago. Can I still start a return, and how soon must I send it after approval?",
+    "source_sha256": "c9d5ffeaa07e6aa7a1789ea444cf0ccdf5084b8cc93ba638cffb96cb000ffc2b",
+    "answer": {
+      "answer": "Yes, you can still start a return. The store accepts ordinary unused gear within 30 calendar days after delivery, and your jacket arrived 28 days ago, so you are within the window. You must open a return request in the order portal before that 30‑day window ends. After approval, you have seven calendar days to hand the parcel to the carrier.",
+      "abstain": false,
+      "citations": [
+        "50913a6804b7a320"
+      ]
+    },
+    "cited_sources": [
+      "01-standard-returns"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "5d6d040864",
+    "case_id": "u05",
+    "question": "Are size 9 waterproof hiking boots available for pickup in my nearest store right now?",
+    "source_sha256": "6ad8332d2b768ad801e883a325a4e03a17dc2ed31f5ee55953a040c1d6c61bd0",
+    "answer": {
+      "answer": "I cannot confirm whether size 9 waterproof hiking boots are available for pickup in your nearest store right now. The online product catalog does not establish which store has an item today, and the published pickup process cannot answer a live stock question.",
+      "abstain": true,
+      "citations": [
+        "7a184c98ee5eec05"
+      ]
+    },
+    "cited_sources": [
+      "19-store-pickup"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "cfe0465848",
+    "case_id": "m08",
+    "question": "I asked to cancel 20 minutes after ordering, but warehouse processing had already started. Does the 30-minute rule guarantee cancellation? If the order system later confirms cancellation before payment capture, is the pending card entry handled as a refund or as an authorization release, and what is the normal bank timing?",
+    "source_sha256": "5531a81c14e6a6c3e37b20746bfdca69411566445055fef38e2e0bf58cda5075",
+    "answer": {
+      "answer": "No, the 30-minute rule does not guarantee cancellation. The policy requires both that the request is made within 30 minutes and that warehouse processing has not started; a request sent on time can still be too late if processing has already begun. If the order system confirms cancellation before payment capture, the store releases the authorization rather than issuing a refund. The card provider typically removes a released authorization within three to seven business days.",
+      "abstain": false,
+      "citations": [
+        "16-order-changes",
+        "22-payment-holds"
+      ]
+    },
+    "cited_sources": [
+      "16-order-changes",
+      "22-payment-holds"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "8106c0b42e",
+    "case_id": "d08",
+    "question": "My rechargeable lantern battery has swollen. Should I use the usual ground return label to send it back?",
+    "source_sha256": "a14926390f3f6ef5bb9b22562429b03e31e8fbdd74ee87545adba70e67174211",
+    "answer": {
+      "answer": "No, do not use the usual ground return label. A swollen battery must never be sent using the ordinary returns process or label. You should stop using or charging the device and contact the product safety team via the support form (battery-safety category) for specific instructions.",
+      "abstain": false,
+      "citations": [
+        "bbde1a1550ed6787",
+        "219a0eb840da271f",
+        "feafb2b9c386c0ab"
+      ]
+    },
+    "cited_sources": [
+      "04-lithium-delivery",
+      "13-return-labels",
+      "17-damaged-batteries"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "a553731765",
+    "case_id": "u05",
+    "question": "Are size 9 waterproof hiking boots available for pickup in my nearest store right now?",
+    "source_sha256": "6ad8332d2b768ad801e883a325a4e03a17dc2ed31f5ee55953a040c1d6c61bd0",
+    "answer": {
+      "answer": "I cannot confirm whether size 9 waterproof hiking boots are available for pickup in your nearest store right now. The online product catalog does not establish which store has an item today, and the published pickup process cannot answer a live stock question.",
+      "abstain": true,
+      "citations": [
+        "7a184c98ee5eec05"
+      ]
+    },
+    "cited_sources": [
+      "19-store-pickup"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "95f5ff390d",
+    "case_id": "u01",
+    "question": "Exactly what does replacing a torn tent floor cost? Please give me the fixed price.",
+    "source_sha256": "7a7f769766ea2cbd60b9660157866836effa7e8f61443b8a1b671d58f9286aae",
+    "answer": {
+      "answer": "There is no published fixed price for replacing a torn tent floor. The repair workshop requires an individual quote after assessment for this repair, and the customer must approve the quotation before work begins.",
+      "abstain": true,
+      "citations": [
+        "051d68aa3903ec3b"
+      ]
+    },
+    "cited_sources": [
+      "18-repair-prices"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "0e8c440fe5",
+    "case_id": "m02",
+    "question": "I received the camping starter kit as a gift. It cost the buyer 80 dollars: the lantern was listed at 30, stove 50, and case 20. At day 40 I want to return only the unused lantern using one store label. I have the gift receipt. What amount do I get, and can it go to my bank card?",
+    "source_sha256": "17cb439bcffef7205dfc885b64f5f2d02e89e00632a73ef453f46c9fd9d24f77",
+    "answer": {
+      "answer": "You would receive USD 17 in store credit. Calculation: The lantern's allocated paid amount is USD 24 (USD 80 bundle price × USD 30 lantern list price ÷ USD 100 total list price). Using one store label deducts USD 7, resulting in USD 24 - USD 7 = USD 17. The refund cannot go to your bank card; gift recipients receive store credit.",
+      "abstain": false,
+      "citations": [
+        "c85517983b3480bd",
+        "5a086d73e44b9c4a",
+        "ef9ca50a9737345a",
+        "505e5f951174a07e"
+      ]
+    },
+    "cited_sources": [
+      "07-gift-returns",
+      "09-discounted-bundles",
+      "13-return-labels"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "46f1fd49a9",
+    "case_id": "m05",
+    "question": "I am an active member ordering an ordinary 45-dollar jacket to a contiguous-US address. If I choose standard delivery, what does shipping cost? If I choose express on Monday at 14:00 Eastern in a week without holidays, what does it cost and what is the transit target? Assume no payment or address issue.",
+    "source_sha256": "4348bcb2c36a1d5fe64f3de509a42b6be7c54b5d8a2b0678870597abd395b5b9",
+    "answer": {
+      "answer": "Standard delivery costs USD 0. Your active membership lowers the free standard-delivery threshold to USD 40, and your $45 subtotal qualifies. Express delivery costs USD 18. For an order placed Monday at 14:00 Eastern in a week without holidays, dispatch occurs on Tuesday (since the order is after the 13:00 cutoff) and the two-business-day transit target is Thursday.",
+      "abstain": false,
+      "citations": [
+        "bb381b9b3123e92a",
+        "efdc78f24b69ba38"
+      ]
+    },
+    "cited_sources": [
+      "05-shipping-prices",
+      "06-express-delivery"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "d346161be9",
+    "case_id": "d06",
+    "question": "I need a bigger size of the same jacket model for a domestic order. The current price went up. What price applies, and how long is an approved replacement held?",
+    "source_sha256": "d4d19268578d38eed5a9712c5df11dbf9baa51c21be1ae55a34859a69199d750",
+    "answer": {
+      "answer": "For a domestic size exchange of the same model, the original paid item price applies even if the current listing price has changed. The warehouse holds an approved replacement for seven calendar days; the customer must hand the returning parcel to the carrier within that period.",
+      "abstain": false,
+      "citations": [
+        "157894c3fbda0208"
+      ]
+    },
+    "cited_sources": [
+      "08-size-exchanges"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "0919d85692",
+    "case_id": "u01",
+    "question": "Exactly what does replacing a torn tent floor cost? Please give me the fixed price.",
+    "source_sha256": "24da27d207b417b095ca613d4f6598a30fdb4797bca8183c185d3f86937d4c42",
+    "answer": {
+      "answer": "There is no fixed price for replacing a torn tent floor. This repair requires an individual quote after assessment, and the customer must approve the quotation before work begins.",
+      "abstain": true,
+      "citations": [
+        "051d68aa3903ec3b"
+      ]
+    },
+    "cited_sources": [
+      "18-repair-prices"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "c2b33e6108",
+    "case_id": "d02",
+    "question": "These hiking boots hurt after outdoor walks. Delivery was 50 days ago, they only have normal trail dust, and I have never used the fit trial. Are they still eligible?",
+    "source_sha256": "bb7947bc4eb40bc736da1fce4d8fa925e7fc08c38e160fa339d80484004804cb",
+    "answer": {
+      "answer": "Yes, the hiking boots are eligible for the fit-trial return. The fit-trial policy provides a 60-calendar-day window from delivery, and 50 days falls within this period. Normal trail dust does not disqualify the boots, and the customer's stated lack of prior fit-trial claims satisfies the one-claim-per-year limit. The customer must start the request in the returns portal and hand the parcel to the carrier within seven calendar days after approval. A refund would cover the item price, but original delivery charges are not refunded, and the USD 7 return-label fee applies unless the customer arranges their own shipping.",
+      "abstain": false,
+      "citations": [
+        "02-boot-fit-trial",
+        "13-return-labels"
+      ]
+    },
+    "cited_sources": [
+      "02-boot-fit-trial",
+      "13-return-labels"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "544acc4d26",
+    "case_id": "u04",
+    "question": "My repair is already in the workshop and I am a member. What exact day will it be finished?",
+    "source_sha256": "ab72dde04c09449397e0a3edf566fc72d7e3ed66ad36a82cc3098283cc28d0f9",
+    "answer": {
+      "answer": "The exact finish day cannot be established. Policy states that completion depends on live workshop capacity, parts availability, and the item's repair status, which are maintained in the live repair system. Membership alone does not determine the completion date.",
+      "abstain": true,
+      "citations": [
+        "87732b73e53652ff"
+      ]
+    },
+    "cited_sources": [
+      "18-repair-prices"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "6fdf470e6d",
+    "case_id": "u03",
+    "question": "How much of my annual membership fee will I get back if I cancel after using the free-shipping benefit?",
+    "source_sha256": "2894454a9bd5caed7fa383c5440631f0354f639beca910a6e5adc76775a30d57",
+    "answer": {
+      "answer": "The refund amount for your annual membership fee if you cancel after using the free-shipping benefit cannot be determined. The evidence states that the membership costs USD 24 and lasts 12 months, but explicitly notes that 'Refund treatment for an already-used membership is not specified in this policy.'",
+      "abstain": true,
+      "citations": [
+        "625cd04d1852c6b0",
+        "5092d67cdea31716"
+      ]
+    },
+    "cited_sources": [
+      "12-member-benefits"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "86599d80bd",
+    "case_id": "u07",
+    "question": "What exact storage temperature does the rechargeable lantern manufacturer specify?",
+    "source_sha256": "17ab14c686ca60dca07fd50fc2c8ae2d002a3a60cd435c9d8ee42d3d50f7f18c",
+    "answer": {
+      "answer": "The supplied policy documents do not specify the exact storage temperature for rechargeable lanterns. Evidence 24 states that rechargeable equipment should follow its manufacturer's charging and storage instructions and notes that the article 'does not supply a temperature specification for every model.'",
+      "abstain": true,
+      "citations": [
+        "24-product-care"
+      ]
+    },
+    "cited_sources": [
+      "24-product-care"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "e711163e66",
+    "case_id": "u08",
+    "question": "What exact cash compensation will I receive because my lantern battery swelled?",
+    "source_sha256": "ea1ffa1e2a3d397e5c0e167ab1c0ef2b7ee14bc1271c3766374ca832054087b3",
+    "answer": {
+      "answer": "The exact cash compensation cannot be determined. A swollen battery must not be sent through the ordinary returns process; you must contact the product safety team via the support form (battery-safety category) for instructions. Whether the item qualifies for a warranty remedy is assessed separately from safe handling, and no specific compensation amount is provided in the evidence.",
+      "abstain": true,
+      "citations": [
+        "bbde1a1550ed6787",
+        "feafb2b9c386c0ab",
+        "219a0eb840da271f"
+      ]
+    },
+    "cited_sources": [
+      "04-lithium-delivery",
+      "13-return-labels",
+      "17-damaged-batteries"
+    ],
+    "cited_phrase_hits": [
+      false
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "2242dfa905",
+    "case_id": "u04",
+    "question": "My repair is already in the workshop and I am a member. What exact day will it be finished?",
+    "source_sha256": "4927689b6682251d9d69d277cfd040d4abf7398e4b7df8fcbb9391dfc53569c1",
+    "answer": {
+      "answer": "I cannot provide the exact completion date. Membership grants priority handling, which changes queue position, but it does not guarantee a completion date. The completion date depends on current workshop capacity, parts availability, and the specific repair status, which are maintained in the live repair system and require checking that record.",
+      "abstain": true,
+      "citations": [
+        "87732b73e53652ff",
+        "625cd04d1852c6b0"
+      ]
+    },
+    "cited_sources": [
+      "12-member-benefits",
+      "18-repair-prices"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "f3c683ca58",
+    "case_id": "u02",
+    "question": "On what date does the store credit I get from a gift return expire?",
+    "source_sha256": "39381de53e1c9d713514a817e2db6749db66793446a909eb7c755cf5223b6b8d",
+    "answer": {
+      "answer": "The expiration date for store credit issued from a gift return cannot be established from the supplied evidence. Evidence 6674a2b72daa2f79 explicitly states that the gift returns article does not describe the expiration date of store credit.",
+      "abstain": true,
+      "citations": [
+        "6674a2b72daa2f79"
+      ]
+    },
+    "cited_sources": [
+      "07-gift-returns"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "84bd28299b",
+    "case_id": "u06",
+    "question": "The carrier says my return was delivered yesterday. Has my refund already been approved and sent?",
+    "source_sha256": "618ddcf6b68e06844e520f78c4fa1bc6f2e75df1e658d793f667529f8d5948a3",
+    "answer": {
+      "answer": "No, carrier delivery is not the same as refund approval. The warehouse inspects the return before approving the refund. After approval, the store submits the refund within two business days, and your bank may take another three to five business days to show the credit. I do not have access to your live return record to confirm the current status.",
+      "abstain": true,
+      "citations": [
+        "14-refund-timing",
+        "01-standard-returns"
+      ]
+    },
+    "cited_sources": [
+      "01-standard-returns",
+      "14-refund-timing"
+    ],
+    "cited_phrase_hits": [
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "2ba9a6c024",
+    "case_id": "m05",
+    "question": "I am an active member ordering an ordinary 45-dollar jacket to a contiguous-US address. If I choose standard delivery, what does shipping cost? If I choose express on Monday at 14:00 Eastern in a week without holidays, what does it cost and what is the transit target? Assume no payment or address issue.",
+    "source_sha256": "2d901e7e8784cb788eb67adea33462310915c49598ef3300759c59d0f060cfa5",
+    "answer": {
+      "answer": "Standard delivery costs USD 0 (free). Your active membership lowers the free standard-delivery threshold to USD 40, and your USD 45 subtotal qualifies. Express delivery costs USD 18. For an order placed Monday at 14:00 Eastern in a week without holidays, dispatch is Tuesday and the two-business-day transit target is Thursday.",
+      "abstain": false,
+      "citations": [
+        "bb381b9b3123e92a",
+        "efdc78f24b69ba38",
+        "8bf7db6fd7826bf0"
+      ]
+    },
+    "cited_sources": [
+      "05-shipping-prices",
+      "06-express-delivery"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations_exist": true
+  },
+  {
+    "packet_id": "af962299aa",
+    "case_id": "d06",
+    "question": "I need a bigger size of the same jacket model for a domestic order. The current price went up. What price applies, and how long is an approved replacement held?",
+    "source_sha256": "0df76919711569324e26403b8ecf366046488b2b0cf3e46a25e86aa4151691bd",
+    "answer": {
+      "answer": "For a domestic size exchange of the same model, the original paid item price applies, even if the current listing price has changed. The warehouse holds an approved replacement for seven calendar days; you must hand the returning parcel to the carrier within that period.",
+      "abstain": false,
+      "citations": [
+        "157894c3fbda0208"
+      ]
+    },
+    "cited_sources": [
+      "08-size-exchanges"
+    ],
+    "cited_phrase_hits": [
+      true,
+      true
+    ],
+    "citations_exist": true
+  }
+]

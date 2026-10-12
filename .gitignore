@@ -1,0 +1,11 @@
+private/
+config.local.json
+.venv/
+__pycache__/
+*.pyc
+results/
+measurements/runs/
+.DS_Store
+dist/
+article/
+site-source/
