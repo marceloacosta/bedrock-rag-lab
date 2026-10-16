@@ -28,6 +28,6 @@ if args.article_dir:
                  'images.json', 'article-package.zip']:
         shutil.copyfile(args.article_dir / name, target / name)
     (target / 'images').mkdir()
-    for name in ['approaches.png', 'experiment.png', 'results.png', 'answers.png']:
+    for name in ['approaches.png', 'system-architecture.png', 'experiment.png', 'results.png', 'answers.png']:
         shutil.copyfile(args.article_dir / 'images' / name, target / 'images' / name)
 print('Static site assembled in dist/.')
